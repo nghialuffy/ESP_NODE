@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* html class */
+body {
+			position: relative;
+			background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+				background-size: cover;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				    -ms-flex-pack: center;
+				        justify-content: center;
+}
+
+#canvas{
+				z-index: -1;
+				position: absolute;
+				top:0;
+				left:0;
+}
+
+/* card from here */
+.card{
+			position: relative;
+			margin-top: 100px;
+			width: 300px;
+			height: 450px;
+			border-radius: 15px;
+			-webkit-box-shadow: 0 0 7px 1px rgba(255,255,255,.4);
+			        box-shadow: 0 0 7px 1px rgba(255,255,255,.4);
+			overflow: hidden;
+			cursor: pointer;
+			-webkit-transition: all .1s ease-out;
+			-o-transition: all .1s ease-out;
+			transition: all .1s ease-out;
+}
+/* blurry mask */
+.card::before{
+				content: '';
+    width: 150%;
+    height: 150%;
+    top: -10%;
+    left: -10%;
+    position: absolute;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-size:cover;
+    -webkit-filter: blur(10px) brightness(.7);
+            filter: blur(10px) brightness(.7);
+    z-index: -1;
+}
+
+
+
+.card:hover{
+									-webkit-box-shadow: 0 0 15px 7px rgba(255,255,255,.7);
+									        box-shadow: 0 0 15px 7px rgba(255,255,255,.7);
+}
+
+.info{
+				position: absolute;
+				bottom: 50px;
+				left: 0;
+				padding: 30px;
+				text-align: center;
+				color: white;
+				font-size: 2em;
+	font-style: italic;
+				font-family: 'Raleway', sans-serif;
+}
+.info form {
+    padding-top: 200px;
+    margin: 5px;
+    width: 300px;
+    
+    margin-left: -30px;
+}
+.info input {
+    width: 150px;
+    height: 40px;
+}
+.info button {
+    width: 200px;
+    height: 60px;
+}
