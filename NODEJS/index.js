@@ -13,11 +13,12 @@ app.use(bodyparser.urlencoded({extended: true}));
 app.use(bodyparser.json());
 
 http.listen(PORT, function () {
-	console.log("Server nodejs chay tai dia chi: " + ip.address() + ":" + PORT)
+	console.log("Server Nodejs chay tai dia chi: " + ip.address() + ":" + PORT)
 });
 
 
 var datainside = [];
+var dataoutside = [];
 
 function getDataInside(temp, lux, time){
     let objTime = {day : 0, month : 0, year : 0, hour : 0, minute : 0, second : 0};
@@ -31,15 +32,36 @@ function getDataInside(temp, lux, time){
     objTime.minute = parseInt(time.slice(9,11));
     objTime.second = parseInt(time.slice(11,13));
     inside.time = objTime;
+    
     datainside.push(inside);
-    console.log(datainside);
+    // console.log(datainside);
+    
 }
 
-function getLedControl() {
+function getDataOutside(temp, lux, posServo, time){
+    let objTime = {day : 0, month : 0, year : 0, hour : 0, minute : 0, second : 0};
+    let outside = {temp : 0, lux : 0 , posServo : 0, time};
+    outside.temp = temp;
+    outside.lux = lux;
+    objTime.day = parseInt(time.slice(0,2));
+    objTime.month = parseInt(time.slice(2,4));
+    objTime.year = parseInt(time.slice(4,6));
+    objTime.hour = parseInt(time.slice(7,9));
+    objTime.minute = parseInt(time.slice(9,11));
+    objTime.second = parseInt(time.slice(11,13));
+    outside.posServo = posServo;
+    outside.time = objTime;
+    
+    dataoutside.push(outside);
+    // console.log(dataoutside);
+    
+}
+
+function setPosServo() {
 	app.post('/', (req, res)=>{
 		console.log(req.body);
-		var val = parseInt(req.body.value)
-		io.sockets.emit('OnOrOff', val);
+        var pos = parseInt(req.body.value)
+		io.sockets.emit('setServo', pos);
 	});
 }
 
@@ -51,19 +73,24 @@ io.on('connection', function (socket) {
 		console.log(message);
 	});
     
-    socket.on('GetData', function (data) {
+    socket.on('GetDataInside', function (data) {
         let [temp,lux,time] = data.inside.split(",");
         getDataInside(temp,lux,time);
         // console.log(data.inside)
     });
+
+    socket.on('GetDataOutside', function (data) {
+        setPosServo();
+        let [temp,lux,posServo,time] = data.outside.split(",");
+        getDataOutside(temp,lux,posServo,time);
+        // console.log(data.inside)
+    });
     
 
-	socket.on('TurnedOn', function(message){
-		console.log(message);
-	});
-	socket.on('TurnedOff', function(message){
+	socket.on('servoDone', function(message){
 		console.log(message);
     });
+    
     
 
 });
