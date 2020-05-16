@@ -140,7 +140,7 @@ void loop() {
     Serial.println(t);
     Serial.print("Anh sang : ");
     Serial.println(lux);
-    Serial.print("Goc Servo");
+    Serial.print("Goc Servo : ");
     Serial.println(lastPos);
 
     struct tm * timeinfo;
@@ -169,21 +169,22 @@ void loop() {
     if (client.monitor()) {
       Serial.print(RID + " : " + Rfull);
       if (RID == "setServo") {
-        int pos = Rfull.toInt();
+        int pos = Rfull.toInt() + 90 ;
         int i;
+        Serial.println("====================");
         if (pos > lastPos) {
           for (i = lastPos; i <= pos; i += 1) {
             myservo.write(i);
-            delay(15);
+            delay(5);
           }
         } else {
           for (i = lastPos; i >= pos; i -= 1) {
             myservo.write(i);
-            delay(15);
+            delay(5);
           }
         }
         lastPos = pos;
-        client.send("servoDone", "servo", "Done");
+        client.send("servoDone", "servo", "Da quay goc : " + String(pos - 90));
       }
     }
     

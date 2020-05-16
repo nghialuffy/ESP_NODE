@@ -1,1624 +1,212 @@
 {
-  "datainside": [
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 32,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 32,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 32,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 33,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 33,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 33,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 33,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 33,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 33,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 34,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 34,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 34,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 34,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 34,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 34,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 35,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 35,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 36,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 36,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 36,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 36,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 36,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 36,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 37,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 37,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 37,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 37,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 40,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 41,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 41,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 41,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "26.67",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 41,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 41,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 41,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 42,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 42,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 42,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 42,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 42,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 42,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 43,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 43,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 43,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 43,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 43,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 43,
-        "second": 50
-      }
-    },
-    {
-      "temp": "31.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 44,
-        "second": 0
-      }
+  "data": [
+    {
+      "TimeStamp": "160520/220750",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "31.00",
+      "OutsideLux": "56.67",
+      "Servo": "58"
     },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 44,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 44,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 44,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "24.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 44,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 44,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 45,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 45,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 45,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 45,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 45,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 45,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 46,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 46,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 46,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 46,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "19.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 46,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 46,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "25.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "37.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "35.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "35.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "36.67",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "35.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "36.67",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "37.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "38.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "37.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "37.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "37.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "37.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "38.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "37.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 50
-      }
+    {
+      "TimeStamp": "160520/220800",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "143"
     },
-    {
-      "temp": "32.00",
-      "lux": "35.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 0
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "35.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 10
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 20
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "38.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 30
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "38.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 40
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "38.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 50
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "38.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 0
-      }
+    {
+      "TimeStamp": "160520/220810",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "31"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 10
-      }
+    {
+      "TimeStamp": "160520/220820",
+      "InsideTemp": "32.00",
+      "InsideLux": "26.67",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "31"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 20
-      }
+    {
+      "TimeStamp": "160520/220830",
+      "InsideTemp": "32.00",
+      "InsideLux": "28.33",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "31"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 30
-      }
+    {
+      "TimeStamp": "160520/220840",
+      "InsideTemp": "32.00",
+      "InsideLux": "28.33",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "31"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 40
-      }
+    {
+      "TimeStamp": "160520/220850",
+      "InsideTemp": "32.00",
+      "InsideLux": "28.33",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "31"
     },
-    {
-      "temp": "32.00",
-      "lux": "38.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 50
-      }
+    {
+      "TimeStamp": "160520/220900",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "31.00",
+      "OutsideLux": "55.83",
+      "Servo": "31"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 0
-      }
+    {
+      "TimeStamp": "160520/220910",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "31.00",
+      "OutsideLux": "55.83",
+      "Servo": "31"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 10
-      }
+    {
+      "TimeStamp": "160520/220920",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "31.00",
+      "OutsideLux": "56.67",
+      "Servo": "144"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 20
-      }
+    {
+      "TimeStamp": "160520/220930",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "31.00",
+      "OutsideLux": "55.83",
+      "Servo": "144"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 30
-      }
+    {
+      "TimeStamp": "160520/220940",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "55.83",
+      "Servo": "144"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 40
-      }
+    {
+      "TimeStamp": "160520/220950",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "55.83",
+      "Servo": "144"
     },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 50
-      }
+    {
+      "TimeStamp": "160520/221000",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "55.83",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221010",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "55.83",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221020",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "55.83",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221030",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "55.83",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221210",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "31.00",
+      "OutsideLux": "56.67",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221220",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221230",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221240",
+      "InsideTemp": "32.00",
+      "InsideLux": "27.50",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "56.67",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221250",
+      "InsideTemp": "32.00",
+      "InsideLux": "25.83",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "53.33",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221300",
+      "InsideTemp": "32.00",
+      "InsideLux": "20.83",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "9.17",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221310",
+      "InsideTemp": "32.00",
+      "InsideLux": "24.17",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "9.17",
+      "Servo": "143"
+    },
+    {
+      "TimeStamp": "160520/221320",
+      "InsideTemp": "32.00",
+      "InsideLux": "25.83",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "54.17",
+      "Servo": "58"
+    },
+    {
+      "TimeStamp": "160520/221330",
+      "InsideTemp": "32.00",
+      "InsideLux": "26.67",
+      "OutsideTemp": "32.00",
+      "OutsideLux": "49.17",
+      "Servo": "0"
     }
-  ],
-  "dataoutside": [
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 32,
-        "second": 21
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 46,
-        "second": 51
-      }
-    },
-    {
-      "temp": "31.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 1
-      }
-    },
-    {
-      "temp": "31.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 11
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 21
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 31
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "7.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 41
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "7.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 47,
-        "second": 51
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "7.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 1
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "34.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 11
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "15.00",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 21
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "46.67",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 31
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "48.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 41
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "49.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 48,
-        "second": 51
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "48.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 1
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "48.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 11
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "48.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 21
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "39.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 31
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "47.50",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 41
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "24.17",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 49,
-        "second": 51
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "48.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 1
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 21
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "51.67",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 41
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "50.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 50,
-        "second": 51
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "50.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 1
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "51.67",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 21
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "50.83",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 51,
-        "second": 31
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 1
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 21
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 21
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 41
-      }
-    },
-    {
-      "temp": "32.00",
-      "lux": "53.33",
-      "time": {
-        "day": 16,
-        "month": 5,
-        "year": 20,
-        "hour": 20,
-        "minute": 52,
-        "second": 41
-      }
-    }
-  ],
-  "posServo": [
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0",
-    "0"
   ]
 }

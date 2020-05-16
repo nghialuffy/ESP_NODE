@@ -5,7 +5,7 @@ const FileSync = require('lowdb/adapters/FileSync')
 const adapter = new FileSync('db.json')
 const db = low(adapter)
 
-db.defaults({ datainside: [], dataoutside: [], posServo: [] })
+db.defaults({ data : [] })
   .write()
 
 var path = require('path');
@@ -35,59 +35,36 @@ app.use(bodyparser.json());
 
 var storageKey = 'list';
 
+var inside = { temp: 0, lux : 0, time : ""}
 
 function timeToStr(objTime) {
     return objTime.hour + ":" + objTime.minute + " " + objTime.day + "/" + objTime.month + "/" + objTime.year;
 }
-function getDataInside(vtemp, vlux, vtime) {
-    let objTime = { day: 0, month: 0, year: 0, hour: 0, minute: 0, second: 0 };
-    objTime.day = parseInt(vtime.slice(0, 2));
-    objTime.month = parseInt(vtime.slice(2, 4));
-    objTime.year = parseInt(vtime.slice(4, 6));
-    objTime.hour = parseInt(vtime.slice(7, 9));
-    objTime.minute = parseInt(vtime.slice(9, 11));
-    objTime.second = parseInt(vtime.slice(11, 13));
 
-    db.get('datainside')
+function getDataInside(vtemp, vlux, vtime) {
+        inside.temp = vtemp;
+        inside.lux = vlux;
+        inside.time = vtime;
+}
+
+function getDataOutside(vtemp, vlux, vposServo, vtime) {
+
+    db.get('data')
       .push({ 
-                temp: vtemp, 
-                lux: vlux,
-                time: objTime
+                TimeStamp: inside.time,
+                InsideTemp: inside.temp, 
+                InsideLux: inside.lux,
+                OutsideTemp: vtemp,
+                OutsideLux: vlux,
+                Servo : vposServo,
             })
       .write()
 
 }
 
-function getDataOutside(vtemp, vlux, vposServo, vtime) {
-    let objTime = { day: 0, month: 0, year: 0, hour: 0, minute: 0, second: 0 };
-    objTime.day = parseInt(vtime.slice(0, 2));
-    objTime.month = parseInt(vtime.slice(2, 4));
-    objTime.year = parseInt(vtime.slice(4, 6));
-    objTime.hour = parseInt(vtime.slice(7, 9));
-    objTime.minute = parseInt(vtime.slice(9, 11));
-    objTime.second = parseInt(vtime.slice(11, 13));
-
-    db.get('dataoutside')
-      .push({ 
-                temp: vtemp, 
-                lux: vlux,
-                time: objTime
-            })
-      .write();
-
-    db.get('posServo')
-      .push(
-                vposServo
-            )
-      .write();
-
-}
-
 function setPosServo() {
     app.post('/', (req, res) => {
-        // var servoString = req.getElementsByClassName("edit")[0].textContent.replace("°","");
-        console.log(req.body);
-        var pos = parseInt(req.body.value)
+        var pos = parseInt(req.body['servo']);
         io.sockets.emit('setServo', pos);
     });
 }

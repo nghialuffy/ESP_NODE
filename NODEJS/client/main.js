@@ -67,10 +67,10 @@ $("#arc-slider").roundSlider({
 var btnSubmit = document.getElementById("btn-submit");
 btnSubmit.addEventListener("click", ()=>{
   var servoString = document.getElementsByClassName("edit")[0].textContent.replace("°","");
-  $.get('/data.txt',  // url
-      function (data, textStatus, jqXHR) {  // success callback
-          alert('status: ' + textStatus + ', data:' + data);
-    });
+  $.post('/',
+        { servo: servoString })
+        .done(function() { console.log('Request done!'); })
+        .fail(function () { console.log('Request Fail!')});
 });
 $(function() {
   $('.set-servo-manual').hide() 
