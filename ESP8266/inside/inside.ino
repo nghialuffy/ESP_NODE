@@ -8,12 +8,12 @@
 #include <SocketIOClient.h>
 #include <time.h>
 
-#define WIFI_SSID "Tony Stark"
-#define WIFI_PASSWORD "iloveyou3000"
+#define WIFI_SSID "DUT"
+#define WIFI_PASSWORD "11223355"
 #define DHTTYPE DHT11   // DHT 11
 #define DHTPIN D5
 #define TIMEZONE 7
-#define IP_HOST "192.168.0.113"
+#define IP_HOST "192.168.1.197"
 #define IP_PORT 8888
 
 /*
@@ -46,7 +46,7 @@ int port = IP_PORT;
 
 
 unsigned long previousMillis = 0;
-long interval = 2000;
+long interval = 1000;
 
 void setup() {
   Serial.begin(115200);
@@ -85,7 +85,7 @@ void setup() {
   }
 
   if (client.connected()) {
-    client.send("Connect", "Notification", "Connected !!!!");
+    client.send("Connect", "Notification", "Inside connect !!!!");
   }
 
 }
@@ -121,12 +121,16 @@ void loop() {
     timeinfo = localtime (&now);
     strftime (buffer, 80, "%d%m%y/%H%M%S", timeinfo);
 
-
     //gửi sự kiện "GetData" một JSON
-    client.send("GetDataInside", "inside", String(t) + "," + String(lux) + ","+String(buffer));
+    // 160520/184832
+    if((String(buffer[12]) == "0")){
+      client.send("GetDataInside", "inside", String(t) + "," + String(lux) + ","+String(buffer));
+     }
+    
 
     if (!client.connected()) {
       client.reconnect(host, port);
+      client.send("Connect", "Notification", "Inside reconnect !!!!");
       Serial.println(F("Reconnected..."));
     }
 

@@ -9,12 +9,12 @@
 #include <time.h>
 #include <Servo.h>
 
-#define WIFI_SSID "Tony Stark"
-#define WIFI_PASSWORD "iloveyou3000"
+#define WIFI_SSID "DUT"
+#define WIFI_PASSWORD "11223355"
 #define DHTTYPE DHT11   // DHT 11
 #define DHTPIN D5
 #define TIMEZONE 7
-#define IP_HOST "192.168.0.104"
+#define IP_HOST "192.168.1.197"
 #define IP_PORT 8888
 
 /*
@@ -59,7 +59,7 @@ int lastPos = 0;
 
 
 unsigned long previousMillis = 0;
-long interval = 2000;
+long interval = 1000;
 
 void setup() {
   Serial.begin(115200);
@@ -95,11 +95,11 @@ void setup() {
   Serial.println("Start Test Servo....");
   for (pos = 0; pos <= 180; pos += 1) {
     myservo.write(pos);
-    delay(15);
+    delay(5);
   }
   for (pos = 180; pos >= 0; pos -= 1) {
     myservo.write(pos);
-    delay(15);
+    delay(5);
   }
   Serial.println("Test Servo DONE....");
 
@@ -114,12 +114,13 @@ void setup() {
   }
 
   if (client.connected()) {
-    client.send("Connect", "Notification", "Connected !!!!");
+    client.send("Connect", "Notification", "Outside connect !!!!");
   }
 
 }
 
 void loop() {
+  
   if (millis() - previousMillis > interval) {
     //lệnh:
     previousMillis = millis();
@@ -135,24 +136,31 @@ void loop() {
       return;
     }
 
-//    Serial.print("Nhiet do : ");
-//    Serial.println(t);
-//    Serial.print("Anh sang : ");
-//    Serial.println(lux);
-//    Serial.print("Goc Servo");
-//    Serial.println(lastPos);
+    Serial.print("Nhiet do : ");
+    Serial.println(t);
+    Serial.print("Anh sang : ");
+    Serial.println(lux);
+    Serial.print("Goc Servo");
+    Serial.println(lastPos);
 
     struct tm * timeinfo;
     time_t now = time(nullptr);
-//    Serial.println(ctime(&now));
+    Serial.println(ctime(&now));
     time (&now);
     timeinfo = localtime (&now);
     strftime (buffer, 80, "%d%m%y/%H%M%S", timeinfo);
 
 
     //gửi sự kiện "GetData" một JSON
-    client.send("GetDataOutside", "outside", String(t) + "," + String(lux) +"," + String(lastPos) + "," + String(buffer));
-
+    if ((String(buffer[12]) == "1")){
+      client.send("GetDataOutside", "outside", String(t) + "," + String(lux) +"," + String(lastPos) + "," + String(buffer));
+    }
+    
+    if (!client.connected()) {
+      client.reconnect(host, port);
+      client.send("Connect", "Notification", "Outside reconnect !!!!");
+      Serial.println(F("Reconnected..."));
+    }
     
     
     //Nhap even tu server tra ve. Se co 2 thong so RID va Rfull
@@ -178,16 +186,8 @@ void loop() {
         client.send("servoDone", "servo", "Done");
       }
     }
-
-
-    if (!client.connected()) {
-      client.reconnect(host, port);
-      Serial.println(F("Reconnected..."));
-    }
-
-
-
-
+    
+    
   }
 
 

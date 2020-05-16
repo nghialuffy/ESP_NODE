@@ -1,0 +1,109 @@
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px;}
+.toggle.ios .toggle-handle { border-radius: 20px; }
+body {
+  background-color: #f5f5f5;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+h3 {
+  margin-top: 40px;
+  font-weight: bold;
+}
+.list-history {
+  list-style: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item{
+  padding: 20px;
+  border-bottom: grey 1px solid;
+  border: grey 1.5px solid;
+}
+.item-content{
+  font-size: 18px;
+  line-height: 30px;
+}
+.item-content-small{
+  padding-left: 30px;
+  font-size: 15px;
+  color: #555555;
+  font-style: italic;
+  line-height: 25px;
+}
+.schedule-title{
+  padding-top: 220px;
+}
+.schedule-table{
+  border: grey 1.5px solid;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+.bg-green{
+  background-color: green;
+}
+.menu-info{
+  margin-top: 36px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+#arc-slider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110px !important;
+  width: 400px !important;
+  border: 1px dashed;
+  overflow: hidden;
+  padding: 15px;
+  margin-top: 35px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+#arc-slider .rs-container {
+  margin-left: -240px; /* here 240 is the radius value */
+  left: 50%;
+}
+#arc-slider .rs-tooltip {
+  top: 60px;
+}
+#arc-slider .rs-tooltip-text {
+  font-size: 25px;
+}
+#arc-slider .rs-border{
+  border-width: 0px;
+}
+
+/* Appearance related changes */
+.rs-control .rs-range-color {
+  background-color: #54BBE0;
+}
+.rs-control .rs-path-color {
+  background-color: #5f5f5f;
+}
+.rs-control .rs-handle {
+  background-color: #51c5cf;
+}
+
+.btn-submit{
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  padding: 20px 50px;
+  margin-top: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 700px){
+  .schedule-title{
+    padding-top: 50px;
+  }
+  #arc-slider {
+    width: 330px !important;
+  }
+} 
+
