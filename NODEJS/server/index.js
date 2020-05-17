@@ -35,48 +35,48 @@ app.use(bodyparser.json());
 
 var storageKey = 'list';
 
-var inside = { temp: 0, lux : 0, time : ""}
+var inside = { temp: 0, lux : 0}
 
-function timeToStr(objTime) {
-    return objTime.hour + ":" + objTime.minute + " " + objTime.day + "/" + objTime.month + "/" + objTime.year;
-}
 
 function getDataInside(vtemp, vlux, vtime) {
         inside.temp = vtemp;
         inside.lux = vlux;
-        inside.time = vtime;
 }
 
 function getDataOutside(vtemp, vlux, vposServo, vtime) {
-    var data = { TimeStamp: inside.time,
-        InsideTemp: inside.temp, 
-        InsideLux: inside.lux,
-        OutsideTemp: vtemp,
-        OutsideLux: vlux,
-        Servo : vposServo
-    }
     db.get('data')
-      .push( 
-            data
-        )
+      .push({ 
+                TimeStamp: vtime,
+                InsideTemp: inside.temp, 
+                InsideLux: inside.lux,
+                OutsideTemp: vtemp,
+                OutsideLux: vlux,
+                Servo : vposServo,
+            })
       .write()
     io.sockets.emit('sendDataOutside', data);
 
 }
 
-function setPosServo() {
-    app.post('/', (req, res) => {
-        var pos = parseInt(req.body['servo']);
-        io.sockets.emit('setServo', pos);
-    });
-}
+// function setPosServo() {
+    // app.post('/', (req, res) => {
+    //     var pos = parseInt(req.body['servo']);
+    //     io.sockets.emit('setServo', pos);
+    // });
+
+// }
 
 //Khi có một kết nối được tạo giữa Socket Client và Socket Server
 io.on('connection', function (socket) {
-    console.log("Connected"); //In ra màn hình console là đã có một Socket Client kết nối thành công.
 
     socket.on('Connect', function (message) {
         console.log(message);
+    });
+
+
+    socket.on('postDataServo', function(pos){
+        var pos = parseInt(pos);
+        io.sockets.emit('setServo', pos);
     });
 
     socket.on('GetDataInside', function (data) {
@@ -86,7 +86,7 @@ io.on('connection', function (socket) {
     });
 
     socket.on('GetDataOutside', function (data) {
-        setPosServo();
+        // setPosServo();
         let [temp, lux, posServo, time] = data.outside.split(",");
         getDataOutside(temp, lux, posServo, time);
         // console.log(data.inside)
