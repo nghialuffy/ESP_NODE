@@ -54,6 +54,7 @@ function getDataOutside(vtemp, vlux, vposServo, vtime) {
                 Servo : vposServo,
             })
       .write()
+    io.sockets.emit('sendDataOutside', data);
 
 }
 

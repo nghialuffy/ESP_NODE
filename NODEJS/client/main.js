@@ -3,22 +3,6 @@ var storageKey = 'list';
 var list = [];
 var listString = '';
 
-function Item(time,insideLux,insideTemp,outsideLux,outsideTemp,servo){
-    this.time = time;
-    this.insideLux = insideLux;
-    this.insideTemp = insideTemp;
-    this.outsideLux = outsideLux;
-    this.outsideTemp = outsideTemp;
-    this.servo = servo;
-}
-var item1 = new Item('16:30 30/04/2020',30,25,150,25,30);
-var item2 = new Item('16:30 30/04/2020',30,25,150,25,30);
-var item3 = new Item('16:30 30/04/2020',30,25,150,25,30);
-
-list.push(item1);
-list.push(item2);
-list.push(item3);
-
 listString = JSON.stringify(list);
 localStorage.setItem(storageKey,listString);
 
@@ -37,6 +21,18 @@ function convertToHTML(list){
     </div>`;
   });
   return content;
+}
+function statusHTML(item){
+  return `
+  <div class="item">
+    <div class="item-content">Time: ${item.time}</div>
+    <div class="item-content">Outside:</div>
+    <div class="item-content-small">Lux: ${item.outsideLux}</div>
+    <div class="item-content-small">Temp: ${item.outsideTemp}</div>
+    <div class="item-content">Inside:</div>
+    <div class="item-content-small">Lux: ${item.insideLux}</div>
+    <div class="item-content-small">Temp: ${item.insideTemp}</div>
+  </div>`;
 }
 function render(){
   var htmlList = document.getElementById('history');
@@ -95,3 +91,11 @@ $(function() {
 });
 })
 
+var socket = io();
+    socket.on("sendDataOutside",(dataString) => {
+      var data = JSON.parse(dataString);
+      list.unshift(data);
+      if (list.length > 3) list.pop();
+      document.getElementById("info-status").innerHTML = statusHTML(data);
+      render();
+    })
