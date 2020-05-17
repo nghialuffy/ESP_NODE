@@ -48,17 +48,19 @@ function getDataInside(vtemp, vlux, vtime) {
 }
 
 function getDataOutside(vtemp, vlux, vposServo, vtime) {
-
+    var data = { TimeStamp: inside.time,
+        InsideTemp: inside.temp, 
+        InsideLux: inside.lux,
+        OutsideTemp: vtemp,
+        OutsideLux: vlux,
+        Servo : vposServo
+    }
     db.get('data')
-      .push({ 
-                TimeStamp: inside.time,
-                InsideTemp: inside.temp, 
-                InsideLux: inside.lux,
-                OutsideTemp: vtemp,
-                OutsideLux: vlux,
-                Servo : vposServo,
-            })
+      .push( 
+            data
+        )
       .write()
+    io.sockets.emit('sendDataOutside', data);
 
 }
 
