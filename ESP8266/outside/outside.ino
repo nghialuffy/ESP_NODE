@@ -59,7 +59,7 @@ int lastPos = 0;
 
 
 unsigned long previousMillis = 0;
-long interval = 1000;
+long interval = 2000;
 
 void setup() {
   Serial.begin(115200);
@@ -120,7 +120,9 @@ void setup() {
 }
 
 void loop() {
-  
+
+
+
   if (millis() - previousMillis > interval) {
     //lệnh:
     previousMillis = millis();
@@ -152,17 +154,17 @@ void loop() {
 
 
     //gửi sự kiện "GetData" một JSON
-    if ((String(buffer[12]) == "1")){
-      client.send("GetDataOutside", "outside", String(t) + "," + String(lux) +"," + String(lastPos) + "," + String(buffer));
+    //    if ( (String(buffer[12]) == "1") && ((String(buffer[10])).toInt() % 2 == 0) && (String(buffer[11]) == "0")){
+    //      client.send("GetDataOutside", "outside", String(t) + "," + String(lux) +"," + String(lastPos) + "," + String(buffer));
+    //    }
+
+    if ( (String(buffer[12]) == "1")) {
+      client.send("GetDataOutside", "outside", String(t) + "," + String(lux) + "," + String(lastPos) + "," + String(buffer));
     }
-    
-    if (!client.connected()) {
-      client.reconnect(host, port);
-      client.send("Connect", "Notification", "Outside reconnect !!!!");
-      Serial.println(F("Reconnected..."));
-    }
-    
-    
+
+
+
+
     //Nhap even tu server tra ve. Se co 2 thong so RID va Rfull
     //  +RID: Tên sự kiện
     //  +RFull: Danh sách tham số được nén thành chuỗi JSON!
@@ -187,9 +189,16 @@ void loop() {
         client.send("servoDone", "servo", "Da quay goc : " + String(pos - 90));
       }
     }
-    
-    
+
+
+
+
   }
 
+  if (!client.connected()) {
+    client.reconnect(host, port);
+    client.send("Connect", "Notification", "Outside reconnect !!!!");
+    Serial.println(F("Reconnected..."));
+  }
 
 }

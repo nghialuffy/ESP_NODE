@@ -66,12 +66,17 @@ $("#arc-slider").roundSlider({
 });
 var btnSubmit = document.getElementById("btn-submit");
 btnSubmit.addEventListener("click", ()=>{
+  var socket = io();
   var servoString = document.getElementsByClassName("edit")[0].textContent.replace("°","");
-  $.post('/',
-        { servo: servoString })
-        .done(function() { console.log('Request done!'); })
-        .fail(function () { console.log('Request Fail!')});
+  console.log(servoString);
+  socket.emit('postDataServo', servoString);
+  // $.post('/',
+  //       { servo: servoString })
+  //       .done(function() { console.log('Request done!'); })
+  //       .fail(function () { console.log('Request Fail!')});
 });
+
+
 $(function() {
   $('.set-servo-manual').hide() 
   $('#set-mode').change(function() {

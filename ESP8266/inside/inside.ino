@@ -46,7 +46,7 @@ int port = IP_PORT;
 
 
 unsigned long previousMillis = 0;
-long interval = 1000;
+long interval = 2000;
 
 void setup() {
   Serial.begin(115200);
@@ -123,21 +123,20 @@ void loop() {
 
     //gửi sự kiện "GetData" một JSON
     // 160520/184832
-    if((String(buffer[12]) == "0")){
-      client.send("GetDataInside", "inside", String(t) + "," + String(lux) + ","+String(buffer));
-     }
-    
+    //    if( (String(buffer[12]) == "0") && ((String(buffer[10])).toInt() % 2 == 0) && (String(buffer[11]) == "0")){
+    //      client.send("GetDataInside", "inside", String(t) + "," + String(lux) + ","+String(buffer));
+    //     }
 
-    if (!client.connected()) {
-      client.reconnect(host, port);
-      client.send("Connect", "Notification", "Inside reconnect !!!!");
-      Serial.println(F("Reconnected..."));
+    if ( (String(buffer[12]) == "0")) {
+      client.send("GetDataInside", "inside", String(t) + "," + String(lux) + "," + String(buffer));
     }
-
-
-
 
   }
 
+  if (!client.connected()) {
+    client.reconnect(host, port);
+    client.send("Connect", "Notification", "Inside reconnect !!!!");
+    Serial.println(F("Reconnected..."));
+  }
 
 }
