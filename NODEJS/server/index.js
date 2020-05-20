@@ -35,8 +35,8 @@ app.use(bodyparser.json());
 
 var storageKey = 'list';
 
-var inside = { temp: 0, lux : 0}
 
+var inside = { temp: 0, lux : 0}
 
 function getDataInside(vtemp, vlux, vtime) {
         inside.temp = vtemp;
@@ -53,18 +53,18 @@ function getDataOutside(vtemp, vlux, vposServo, vtime) {
                 OutsideLux: vlux,
                 Servo : vposServo,
             })
-      .write()
-    io.sockets.emit('sendDataOutside', data);
+      .write();
+      
+    io.sockets.emit('sendDataOutside', {
+                                            TimeStamp: vtime,
+                                            InsideTemp: inside.temp, 
+                                            InsideLux: inside.lux,
+                                            OutsideTemp: vtemp,
+                                            OutsideLux: vlux,
+                                            Servo : vposServo
+                                        });
 
 }
-
-// function setPosServo() {
-    // app.post('/', (req, res) => {
-    //     var pos = parseInt(req.body['servo']);
-    //     io.sockets.emit('setServo', pos);
-    // });
-
-// }
 
 //Khi có một kết nối được tạo giữa Socket Client và Socket Server
 io.on('connection', function (socket) {
@@ -72,7 +72,6 @@ io.on('connection', function (socket) {
     socket.on('Connect', function (message) {
         console.log(message);
     });
-
 
     socket.on('postDataServo', function(pos){
         var pos = parseInt(pos);
@@ -86,12 +85,18 @@ io.on('connection', function (socket) {
     });
 
     socket.on('GetDataOutside', function (data) {
-        // setPosServo();
+
         let [temp, lux, posServo, time] = data.outside.split(",");
         getDataOutside(temp, lux, posServo, time);
-        // console.log(data.inside)
     });
 
+    socket.on('CheckOutside', function (data) {
+        console.log(data)
+    });
+
+    socket.on('CheckInside', function (data) {
+        console.log(data)
+    });
 
     socket.on('servoDone', function (message) {
         console.log(message);

@@ -101,10 +101,12 @@ void loop() {
     float lux = lightMeter.readLightLevel();
     float t = dht.readTemperature();
     if ( isnan(t)) {
+      client.send("CheckInside", "inside", "Doc cam bien nhiet do that bai\nKiem tra lai day dan");
       Serial.println(F("Doc cam bien nhiet do that bai\nKiem tra lai day dan"));
       return;
     }
     if ( isnan(lux)) {
+      client.send("CheckInside", "inside", "Doc cam bien cuong do anh sang that bai\nKiem tra lai day dan");
       Serial.println(F("Doc cam bien cuong do anh sang that bai\nKiem tra lai day dan"));
       return;
     }

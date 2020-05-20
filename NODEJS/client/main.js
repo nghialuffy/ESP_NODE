@@ -1,23 +1,22 @@
 var storageKey = 'list';
-
+var socket = io();
 var list = [];
 var listString = '';
 
-listString = JSON.stringify(list);
-localStorage.setItem(storageKey,listString);
+var htmlList = document.getElementById("history");
 
 function convertToHTML(list){
   var content = list.map(function(item){
     return `
     <div class="item">
-      <div class="item-content">Time: ${item.time}</div>
+      <div class="item-content">Time: ${item.TimeStamp}</div>
       <div class="item-content">Outside:</div>
-      <div class="item-content-small">Lux: ${item.outsideLux}</div>
-      <div class="item-content-small">Temp: ${item.outsideTemp}</div>
+      <div class="item-content-small">Lux: ${item.OutsideLux}</div>
+      <div class="item-content-small">Temp: ${item.OutsideTemp}</div>
       <div class="item-content">Inside:</div>
-      <div class="item-content-small">Lux: ${item.insideLux}</div>
-      <div class="item-content-small">Temp: ${item.insideTemp}</div>
-      <div class="item-content">Servo: ${item.servo}</div>
+      <div class="item-content-small">Lux: ${item.InsideLux}</div>
+      <div class="item-content-small">Temp: ${item.InsideTemp}</div>
+      <div class="item-content">Servo: ${item.Servo}</div>
     </div>`;
   });
   return content;
@@ -25,23 +24,18 @@ function convertToHTML(list){
 function statusHTML(item){
   return `
   <div class="item">
-    <div class="item-content">Time: ${item.time}</div>
+    <div class="item-content">Time: ${item.TimeStamp}</div>
     <div class="item-content">Outside:</div>
-    <div class="item-content-small">Lux: ${item.outsideLux}</div>
-    <div class="item-content-small">Temp: ${item.outsideTemp}</div>
+    <div class="item-content-small">Lux: ${item.OutsideLux}</div>
+    <div class="item-content-small">Temp: ${item.OutsideTemp}</div>
     <div class="item-content">Inside:</div>
-    <div class="item-content-small">Lux: ${item.insideLux}</div>
-    <div class="item-content-small">Temp: ${item.insideTemp}</div>
+    <div class="item-content-small">Lux: ${item.InsideLux}</div>
+    <div class="item-content-small">Temp: ${item.InsideTemp}</div>
   </div>`;
 }
 function render(){
-  var htmlList = document.getElementById('history');
-  listString = localStorage.getItem(storageKey);
-  if (listString){
-    list = JSON.parse(listString);
-    var content = convertToHTML(list);
-    htmlList.innerHTML = content.join('');
-  }
+  var content = convertToHTML(list);
+  htmlList.innerHTML = content.join('');
 }
 render();
 
@@ -62,7 +56,7 @@ $("#arc-slider").roundSlider({
 });
 var btnSubmit = document.getElementById("btn-submit");
 btnSubmit.addEventListener("click", ()=>{
-  var socket = io();
+  // var socket = io();
   var servoString = document.getElementsByClassName("edit")[0].textContent.replace("°","");
   console.log(servoString);
   socket.emit('postDataServo', servoString);
@@ -91,11 +85,14 @@ $(function() {
 });
 })
 
-var socket = io();
-    socket.on("sendDataOutside",(dataString) => {
-      var data = JSON.parse(dataString);
+socket.on("sendDataOutside",(data) => {
+      console.log(data);
+      // var data = JSON.parse(dataString);
       list.unshift(data);
-      if (list.length > 3) list.pop();
+      
+      if (list.length > 3) 
+        list.pop();
+      
       document.getElementById("info-status").innerHTML = statusHTML(data);
       render();
     })
