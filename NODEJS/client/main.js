@@ -42,7 +42,7 @@ render();
 $("#arc-slider").roundSlider({
   sliderType: "min-range",
   circleShape: "custom-quarter",
-  value: 30,
+  value: -90,
   min:-90,
   max: 90,
   startAngle: 45,

@@ -33,14 +33,12 @@ app.use(bodyparser.json());
 
 
 
-var storageKey = 'list';
-
-
 var inside = { temp: 0, lux : 0}
 
 function getDataInside(vtemp, vlux, vtime) {
         inside.temp = vtemp;
         inside.lux = vlux;
+    return 0
 }
 
 function getDataOutside(vtemp, vlux, vposServo, vtime) {
@@ -63,7 +61,7 @@ function getDataOutside(vtemp, vlux, vposServo, vtime) {
                                             OutsideLux: vlux,
                                             Servo : vposServo
                                         });
-
+    return 1
 }
 
 //Khi có một kết nối được tạo giữa Socket Client và Socket Server
@@ -78,30 +76,26 @@ io.on('connection', function (socket) {
         io.sockets.emit('setServo', pos);
     });
 
-    socket.on('GetDataInside', function (data) {
+    socket.on('GetDataInside', async function (data) {
         let [temp, lux, time] = data.inside.split(",");
-        getDataInside(temp, lux, time);
-        // console.log(data.inside)
+        res = await getDataInside(temp, lux, time);
     });
 
-    socket.on('GetDataOutside', function (data) {
+    socket.on('GetDataOutside', async function (data) {
 
         let [temp, lux, posServo, time] = data.outside.split(",");
-        getDataOutside(temp, lux, posServo, time);
+        res = await getDataOutside(temp, lux, posServo, time);
     });
 
-    socket.on('CheckOutside', function (data) {
-        console.log(data)
+    socket.on('CheckOutside', function (message) {
+        console.log(message)
     });
 
-    socket.on('CheckInside', function (data) {
-        console.log(data)
+    socket.on('CheckInside', function (message) {
+        console.log(message)
     });
 
     socket.on('servoDone', function (message) {
         console.log(message);
     });
-
-
-
 });

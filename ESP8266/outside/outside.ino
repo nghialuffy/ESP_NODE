@@ -59,7 +59,7 @@ int lastPos = 0;
 
 
 unsigned long previousMillis = 0;
-long interval = 2000;
+long interval = 1000;
 
 void setup() {
   Serial.begin(115200);
@@ -156,13 +156,13 @@ void loop() {
 
 
     //gửi sự kiện "GetData" một JSON
-    //    if ( (String(buffer[12]) == "1") && ((String(buffer[10])).toInt() % 2 == 0) && (String(buffer[11]) == "0")){
-    //      client.send("GetDataOutside", "outside", String(t) + "," + String(lux) +"," + String(lastPos) + "," + String(buffer));
-    //    }
+        if ( (String(buffer[12]) == "2") && ((String(buffer[10])).toInt() % 2 == 0) && (String(buffer[11]) == "0")){
+          client.send("GetDataOutside", "outside", String(t) + "," + String(lux) +"," + String(lastPos) + "," + String(buffer));
+        }
 
-    if ( (String(buffer[12]) == "1")) {
-      client.send("GetDataOutside", "outside", String(t) + "," + String(lux) + "," + String(lastPos) + "," + String(buffer));
-    }
+//    if (String(buffer[12]) == "5") {
+//      client.send("GetDataOutside", "outside", String(t) + "," + String(lux) + "," + String(lastPos) + "," + String(buffer));
+//    }
 
 
 
@@ -190,6 +190,9 @@ void loop() {
         lastPos = pos;
         client.send("servoDone", "servo", "Da quay goc : " + String(pos - 90));
       }
+    }
+    else{
+      client.send(RID, Rfull);
     }
 
 
