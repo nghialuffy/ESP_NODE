@@ -36,12 +36,14 @@ app.use(bodyparser.json());
 var inside = { temp: 0, lux : 0}
 
 function getDataInside(vtemp, vlux, vtime) {
+        console.log("Get data inside");
         inside.temp = vtemp;
         inside.lux = vlux;
     return 0
 }
 
 function getDataOutside(vtemp, vlux, vposServo, vtime) {
+    console.log("Get data outside");
     db.get('data')
       .push({ 
                 TimeStamp: vtime,
