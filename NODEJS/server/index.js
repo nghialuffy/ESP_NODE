@@ -37,6 +37,7 @@ var inside = { temp: 0, lux : 0}
 
 function getDataInside(vtemp, vlux, vtime) {
         console.log("Get data inside");
+
         inside.temp = vtemp;
         inside.lux = vlux;
     return 0
@@ -73,6 +74,15 @@ io.on('connection', function (socket) {
         console.log(message);
     });
 
+    socket.on('requestData', function(check){
+        if(check){
+            let data = db.get('data')
+                        .value()
+            data = data.slice(data.length - 3)
+
+            socket.emit('sendData',data)
+        }
+    })
     socket.on('postDataServo', function(pos){
         var pos = parseInt(pos);
         io.sockets.emit('setServo', pos);

@@ -86,7 +86,7 @@ $(function() {
 })
 
 socket.on("sendDataOutside",(data) => {
-      console.log(data);
+      // console.log(data);
       // var data = JSON.parse(dataString);
       list.unshift(data);
       
@@ -96,3 +96,14 @@ socket.on("sendDataOutside",(data) => {
       document.getElementById("info-status").innerHTML = statusHTML(data);
       render();
     })
+
+function loadData() {
+  socket.emit('requestData', true);
+  socket.on("sendData",(data) => {
+    list = data;
+
+    htmlList.innerHTML = convertToHTML(list);
+    document.getElementById("info-status").innerHTML = statusHTML(list[list.length-1]);
+    render();
+  })
+}

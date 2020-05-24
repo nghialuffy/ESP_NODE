@@ -8,12 +8,12 @@
 #include <SocketIOClient.h>
 #include <time.h>
 
-#define WIFI_SSID "DUT"
-#define WIFI_PASSWORD "11223355"
+#define WIFI_SSID "Nghialuffy"
+#define WIFI_PASSWORD "iloveyou3000"
 #define DHTTYPE DHT11   // DHT 11
 #define DHTPIN D5
 #define TIMEZONE 7
-#define IP_HOST "192.168.1.197"
+#define IP_HOST "172.20.10.2"
 #define IP_PORT 8888
 
 /*
@@ -101,13 +101,23 @@ void loop() {
     float lux = lightMeter.readLightLevel();
     float t = dht.readTemperature();
     if ( isnan(t)) {
-      client.send("CheckInside", "inside", "Doc cam bien nhiet do that bai\nKiem tra lai day dan");
+      if (!client.connected()) {
+        client.reconnect(host, port);
+      }
+      
+      client.send("CheckInside", "inside", "Doc cam bien nhiet do that bai. Kiem tra lai day dan");
       Serial.println(F("Doc cam bien nhiet do that bai\nKiem tra lai day dan"));
+      
       return;
     }
     if ( isnan(lux)) {
-      client.send("CheckInside", "inside", "Doc cam bien cuong do anh sang that bai\nKiem tra lai day dan");
+      if (!client.connected()) {
+        client.reconnect(host, port);
+      }
+      
+      client.send("CheckInside", "inside", "Doc cam bien cuong do anh sang that bai. Kiem tra lai day dan");
       Serial.println(F("Doc cam bien cuong do anh sang that bai\nKiem tra lai day dan"));
+      
       return;
     }
 
@@ -125,20 +135,19 @@ void loop() {
 
     //gửi sự kiện "GetData" một JSON
     // 160520/184832
-        if( (String(buffer[12]) == "0") && ((String(buffer[10])).toInt() % 2 == 0) && (String(buffer[11]) == "0")){
-          client.send("GetDataInside", "inside", String(t) + "," + String(lux) + ","+String(buffer));
-         }
+    if ( (String(buffer[12]) == "0") && ((String(buffer[10])).toInt() % 2 == 0) && (String(buffer[11]) == "0")) {
+      client.send("GetDataInside", "inside", String(t) + "," + String(lux) + "," + String(buffer));
+    }
 
-//    if (String(buffer[12]) == "0") {
-//      client.send("GetDataInside", "inside", String(t) + "," + String(lux) + "," + String(buffer));
-//    }
+    //    if (String(buffer[12]) == "0") {
+    //      client.send("GetDataInside", "inside", String(t) + "," + String(lux) + "," + String(buffer));
+    //    }
 
   }
 
   if (!client.connected()) {
     client.reconnect(host, port);
     client.send("Connect", "Notification", "Inside reconnect !!!!");
-    Serial.println(F("Reconnected..."));
   }
 
 }
