@@ -2,9 +2,10 @@
 
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
-const adapter = new FileSync('db.json')
-const db = low(adapter)
-const data = require('./db.json');
+const adapterdb = new FileSync('./db.json')
+const adapterdbs = new FileSync('./dataset.json')
+const db = low(adapterdb)
+const dataset = low(adapterdbs)
 
 db.defaults({ data : [] })
   .write()
@@ -26,12 +27,12 @@ const { isObject } = require('util');
 
 tf.disableDeprecationWarnings();
 
-const trainingData = tf.tensor2d(data.map(item=> [
+const trainingData = tf.tensor2d(dataset.get('data').value().map(item=> [
     item.InsideTemp, item.InsideLux, item.OutsideTemp, item.OutsideLux
 ]
-),[653,4])
-
-const outputData = tf.tensor2d(data.map(item => [
+),[dataset.get('data').value().length,4])
+// console.log(dataset.get('data').value().length)
+const outputData = tf.tensor2d(dataset.get('data').value().map(item => [
     item.Servo == 0 ? 1 : 0,
     item.Servo == 30 ? 1 : 0,
     item.Servo == 45 ? 1 : 0,
@@ -42,7 +43,7 @@ const outputData = tf.tensor2d(data.map(item => [
     item.Servo == 150 ? 1 : 0,
     item.Servo == 180 ? 1 : 0,
 
-]), [653,9])
+]), [dataset.get('data').value().length , 9])
 
 const model = tf.sequential();
 
@@ -88,8 +89,9 @@ async function train_data(){
 }
 //Ket thuc khai bao ML
 
-server.listen(PORT, function () {
+server.listen(PORT, async function () {
     console.log("Server Nodejs chay tai dia chi: " + ip.address() + ":" + PORT)
+    await train_data();
 });
 
 
@@ -103,7 +105,7 @@ app.use(bodyparser.json());
 
 
 var inside = { temp: 0, lux : 0}
-
+var currentStatus = { TimeStamp : 0, InsideTemp : 0, InsideLux : 0, OutsideTemp : 0,OutsideLux : 0, Servo : 0}
 function getDataInside(vtemp, vlux, vtime) {
         console.log("Get data inside");
 
@@ -112,8 +114,13 @@ function getDataInside(vtemp, vlux, vtime) {
     return 0
 }
 
-function getDataOutside(vtemp, vlux, vposServo, vtime) {
+async function getDataOutside(vtemp, vlux, vposServo, vtime) {
     console.log("Get data outside");
+    currentStatus.InsideLux = inside.lux;
+    currentStatus.InsideTemp = inside.temp;
+    currentStatus.OutsideLux = vlux;
+    currentStatus.OutsideTemp = vtemp;
+    currentStatus.TimeStamp = vtime;
     db.get('data')
       .push({ 
                 TimeStamp: vtime,
@@ -126,20 +133,21 @@ function getDataOutside(vtemp, vlux, vposServo, vtime) {
       .write();
     //START ML
 
-        var test = tf.tensor2d([parseFloat(inside.temp), parseFloat(inside.lux), parseFloat(vtemp), parseFloat(vlux)], [1,4]);
-        console.log('test: '+test);
+        var test =await tf.tensor2d([parseFloat(inside.temp), parseFloat(inside.lux), parseFloat(vtemp), parseFloat(vlux)], [1,4]);
+        // console.log('test: '+test);
         
-        var out = model.predict(test);
-        console.log('out'+out);
-    
+        var out = await model.predict(test);
+        // console.log('out: '+out);
+        
+        const tensorData = out.dataSync();
         var maxIndex = 0;
-        for (let i=1;i<out.size; i++){
-            if (out.buffer().get(0, i) > out.buffer().get(0, maxIndex)){
+        for (let i = 1 ; i < 9; i++){
+            if (tensorData[i] > tensorData[maxIndex]){
                 maxIndex = i;
             }
         }
     
-        console.log('max index = ' + maxIndex);
+        // console.log('max index = ' + maxIndex);
     
         ans = "Undetermined";
     
@@ -190,9 +198,12 @@ function getDataOutside(vtemp, vlux, vposServo, vtime) {
 //Khi có một kết nối được tạo giữa Socket Client và Socket Server
 io.on('connection', function (socket) {
 
+    socket.on('FirstConnect', function (message) {
+        console.log(message);
+    });
+
     socket.on('Connect', function (message) {
         console.log(message);
-        train_data();
     });
 
     socket.on('requestData', function(check){
@@ -206,6 +217,16 @@ io.on('connection', function (socket) {
     })
     socket.on('postDataServo', function(pos){
         var pos = parseInt(pos);
+        dataset.get('data')
+        .push({ 
+                    TimeStamp: currentStatus.TimeStamp,
+                    InsideTemp: currentStatus.InsideTemp, 
+                    InsideLux: currentStatus.InsideLux,
+                    OutsideTemp: currentStatus.OutsideTemp,
+                    OutsideLux: currentStatus.OutsideLux,
+                    Servo : pos,
+                })
+      .write();
         io.sockets.emit('setServo', pos);
     });
 
