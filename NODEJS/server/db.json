@@ -1,612 +1,5226 @@
-{
-  "data": [
-    {
-      "TimeStamp": "230520/150802",
-      "InsideTemp": "34.00",
-      "InsideLux": "44.17",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "749.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/151002",
-      "InsideTemp": "34.00",
-      "InsideLux": "47.50",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "586.67",
-      "Servo": "90"
-    },
-    {
-      "TimeStamp": "230520/151202",
-      "InsideTemp": "34.00",
-      "InsideLux": "60.83",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "561.67",
-      "Servo": "140"
-    },
-    {
-      "TimeStamp": "230520/151402",
-      "InsideTemp": "34.00",
-      "InsideLux": "54.17",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "723.33",
-      "Servo": "60"
-    },
-    {
-      "TimeStamp": "230520/151602",
-      "InsideTemp": "34.00",
-      "InsideLux": "106.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "652.50",
-      "Servo": "180"
-    },
-    {
-      "TimeStamp": "230520/151602",
-      "InsideTemp": "34.00",
-      "InsideLux": "106.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "650.00",
-      "Servo": "180"
-    },
-    {
-      "TimeStamp": "230520/151802",
-      "InsideTemp": "34.00",
-      "InsideLux": "55.83",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "654.17",
-      "Servo": "120"
-    },
-    {
-      "TimeStamp": "230520/152002",
-      "InsideTemp": "34.00",
-      "InsideLux": "246.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "662.50",
-      "Servo": "90"
-    },
-    {
-      "TimeStamp": "230520/152202",
-      "InsideTemp": "34.00",
-      "InsideLux": "246.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "744.17",
-      "Servo": "120"
-    },
-    {
-      "TimeStamp": "230520/152402",
-      "InsideTemp": "34.00",
-      "InsideLux": "246.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "899.17",
-      "Servo": "120"
-    },
-    {
-      "TimeStamp": "230520/152602",
-      "InsideTemp": "34.00",
-      "InsideLux": "246.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "702.50",
-      "Servo": "120"
-    },
-    {
-      "TimeStamp": "230520/152802",
-      "InsideTemp": "34.00",
-      "InsideLux": "92.50",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "1040.83",
-      "Servo": "120"
-    },
-    {
-      "TimeStamp": "230520/153002",
-      "InsideTemp": "34.00",
-      "InsideLux": "486.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "1000.83",
-      "Servo": "120"
-    },
-    {
-      "TimeStamp": "230520/153202",
-      "InsideTemp": "34.00",
-      "InsideLux": "82.50",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "739.17",
-      "Servo": "120"
-    },
-    {
-      "TimeStamp": "230520/153602",
-      "InsideTemp": "34.00",
-      "InsideLux": "30.83",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "488.33",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/153602",
-      "InsideTemp": "34.00",
-      "InsideLux": "30.83",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "485.00",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/153802",
-      "InsideTemp": "34.00",
-      "InsideLux": "16.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "255.00",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/153802",
-      "InsideTemp": "34.00",
-      "InsideLux": "16.67",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "255.00",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/154002",
-      "InsideTemp": "34.00",
-      "InsideLux": "15.83",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "261.67",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/154202",
-      "InsideTemp": "34.00",
-      "InsideLux": "15.83",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "323.33",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/154402",
-      "InsideTemp": "34.00",
-      "InsideLux": "15.83",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "584.17",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/154602",
-      "InsideTemp": "34.00",
-      "InsideLux": "48.33",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "834.17",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/154802",
-      "InsideTemp": "34.00",
-      "InsideLux": "55.00",
-      "OutsideTemp": "34.00",
-      "OutsideLux": "911.67",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/155002",
-      "InsideTemp": "34.00",
-      "InsideLux": "45.00",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "750.83",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/155802",
-      "InsideTemp": "33.00",
-      "InsideLux": "27.50",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "442.50",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/160002",
-      "InsideTemp": "34.00",
-      "InsideLux": "35.00",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "585.00",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/160602",
-      "InsideTemp": "34.00",
-      "InsideLux": "35.00",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "580.00",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/161402",
-      "InsideTemp": "34.00",
-      "InsideLux": "28.33",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "456.67",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/161602",
-      "InsideTemp": "34.00",
-      "InsideLux": "24.17",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "385.83",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/161802",
-      "InsideTemp": "34.00",
-      "InsideLux": "21.67",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "330.00",
-      "Servo": "-6"
-    },
-    {
-      "TimeStamp": "230520/162002",
-      "InsideTemp": "34.00",
-      "InsideLux": "25.00",
-      "OutsideTemp": "33.00",
-      "OutsideLux": "282.50",
-      "Servo": "90"
-    },
-    {
-      "TimeStamp": "230520/162202",
-      "InsideTemp": "34.00",
-      "InsideLux": "39.17",
-      "OutsideTemp": "32.00",
-      "OutsideLux": "260.00",
-      "Servo": "90"
-    },
-    {
-      "TimeStamp": "230520/162602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "34.00",
-      "OutsideLux": "20.00",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/162602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "211.67",
-      "Servo": "90"
-    },
-    {
-      "TimeStamp": "230520/162802",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "31.00",
-      "OutsideLux": "200.83",
-      "Servo": "270"
-    },
-    {
-      "TimeStamp": "230520/163002",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "19.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163002",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "31.00",
-      "OutsideLux": "198.33",
-      "Servo": "90"
-    },
-    {
-      "TimeStamp": "230520/163202",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "199.17",
-      "Servo": "90"
-    },
-    {
-      "TimeStamp": "230520/163202",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "20.00",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163202",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "198.33",
-      "Servo": "90"
-    },
-    {
-      "TimeStamp": "230520/163402",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "14.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163402",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "196.67",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163402",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "14.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "13.33",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "186.67",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "13.33",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163802",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "11.67",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/163802",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "171.67",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/164002",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "10.00",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/164202",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "10.00",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/164402",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "164.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/164402",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "10.83",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/164602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "169.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/164602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "10.83",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/164802",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "170.83",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/164802",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "10.83",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/165002",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "175.83",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/165202",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "185.83",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/165402",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "202.50",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/165602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "215.00",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/165602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "13.33",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/165602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "215.00",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/165802",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "13.33",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/165802",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "219.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/170002",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "13.33",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/170202",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "33.00",
-      "OutsideLux": "12.50",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/170402",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "32.00",
-      "OutsideLux": "12.50",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/170602",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "31.00",
-      "OutsideLux": "214.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/204202",
-      "InsideTemp": "32.00",
-      "InsideLux": "2.50",
-      "OutsideTemp": "32.00",
-      "OutsideLux": "60.83",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/204402",
-      "InsideTemp": "32.00",
-      "InsideLux": "3.33",
-      "OutsideTemp": "32.00",
-      "OutsideLux": "60.83",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/204602",
-      "InsideTemp": "32.00",
-      "InsideLux": "3.33",
-      "OutsideTemp": "32.00",
-      "OutsideLux": "59.17",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/204802",
-      "InsideTemp": "32.00",
-      "InsideLux": "2.50",
-      "OutsideTemp": "32.00",
-      "OutsideLux": "61.67",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/205402",
-      "InsideTemp": "32.00",
-      "InsideLux": "2.50",
-      "OutsideTemp": "32.00",
-      "OutsideLux": "61.67",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "230520/205402",
-      "InsideTemp": "32.00",
-      "InsideLux": "2.50",
-      "OutsideTemp": "32.00",
-      "OutsideLux": "61.67",
-      "Servo": "0"
-    },
-    {
-      "TimeStamp": "240520/144002",
-      "InsideTemp": "32.00",
-      "InsideLux": "8.33",
-      "OutsideTemp": "32.00",
-      "OutsideLux": "117.50",
-      "Servo": "123"
-    },
-    {
-      "TimeStamp": "240520/150802",
-      "InsideTemp": 0,
-      "InsideLux": 0,
-      "OutsideTemp": "30.00",
-      "OutsideLux": "184.17",
-      "Servo": "90"
-    }
-  ]
-}
+[
+  {
+    "TimeStamp": "250520/070402",
+    "InsideTemp": 42.2,
+    "InsideLux": 5219.17,
+    "OutsideTemp": 50.7,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/070602",
+    "InsideTemp": 42.6,
+    "InsideLux": 5250,
+    "OutsideTemp": 52,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/070802",
+    "InsideTemp": 43,
+    "InsideLux": 5228.33,
+    "OutsideTemp": 52.5,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/074402",
+    "InsideTemp": 37.1,
+    "InsideLux": 5067.5,
+    "OutsideTemp": 45.6,
+    "OutsideLux": 52023.33,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/074602",
+    "InsideTemp": 38.1,
+    "InsideLux": 5025.83,
+    "OutsideTemp": 47.5,
+    "OutsideLux": 52448.33,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/074802",
+    "InsideTemp": 38.9,
+    "InsideLux": 5166.67,
+    "OutsideTemp": 47.6,
+    "OutsideLux": 54588.33,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/075002",
+    "InsideTemp": 39.5,
+    "InsideLux": 5216.67,
+    "OutsideTemp": 49.2,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/075202",
+    "InsideTemp": 40,
+    "InsideLux": 5257.5,
+    "OutsideTemp": 49,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/075402",
+    "InsideTemp": 40.7,
+    "InsideLux": 5088.33,
+    "OutsideTemp": 50.7,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/075602",
+    "InsideTemp": 41,
+    "InsideLux": 5156.67,
+    "OutsideTemp": 50.7,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/075802",
+    "InsideTemp": 41.5,
+    "InsideLux": 5227.5,
+    "OutsideTemp": 50,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/080002",
+    "InsideTemp": 41.8,
+    "InsideLux": 5205,
+    "OutsideTemp": 50.7,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/080202",
+    "InsideTemp": 42.2,
+    "InsideLux": 5219.17,
+    "OutsideTemp": 50.7,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/080402",
+    "InsideTemp": 42.6,
+    "InsideLux": 5250,
+    "OutsideTemp": 52,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/080602",
+    "InsideTemp": 43,
+    "InsideLux": 5228.33,
+    "OutsideTemp": 52.5,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/155802",
+    "InsideTemp": 36.5,
+    "InsideLux": 5019.17,
+    "OutsideTemp": 43.7,
+    "OutsideLux": 50988.33,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "270520/165202",
+    "InsideTemp": 29.2,
+    "InsideLux": 204.17,
+    "OutsideTemp": 27.7,
+    "OutsideLux": 1726.67,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/072202",
+    "InsideTemp": 43.6,
+    "InsideLux": 5721.67,
+    "OutsideTemp": 50.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/072402",
+    "InsideTemp": 43.5,
+    "InsideLux": 5666.67,
+    "OutsideTemp": 50.6,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/072602",
+    "InsideTemp": 43.4,
+    "InsideLux": 5675.83,
+    "OutsideTemp": 49.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/072802",
+    "InsideTemp": 43.3,
+    "InsideLux": 5582.5,
+    "OutsideTemp": 49,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/073202",
+    "InsideTemp": 43.4,
+    "InsideLux": 5390.83,
+    "OutsideTemp": 49.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/073402",
+    "InsideTemp": 43.4,
+    "InsideLux": 5282.5,
+    "OutsideTemp": 49.2,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/073602",
+    "InsideTemp": 43.4,
+    "InsideLux": 5137.5,
+    "OutsideTemp": 49.5,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/073802",
+    "InsideTemp": 43.2,
+    "InsideLux": 4895,
+    "OutsideTemp": 49.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/074202",
+    "InsideTemp": 43,
+    "InsideLux": 4773.33,
+    "OutsideTemp": 48.8,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/074402",
+    "InsideTemp": 43,
+    "InsideLux": 4733.33,
+    "OutsideTemp": 48.7,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/074602",
+    "InsideTemp": 43.4,
+    "InsideLux": 4494.17,
+    "OutsideTemp": 48.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/074802",
+    "InsideTemp": 43.6,
+    "InsideLux": 4277.5,
+    "OutsideTemp": 49,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/075002",
+    "InsideTemp": 43.8,
+    "InsideLux": 3955,
+    "OutsideTemp": 46.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/075202",
+    "InsideTemp": 43.5,
+    "InsideLux": 3686.67,
+    "OutsideTemp": 44.7,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/075402",
+    "InsideTemp": 43.5,
+    "InsideLux": 3495,
+    "OutsideTemp": 44.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/075602",
+    "InsideTemp": 43.3,
+    "InsideLux": 3290,
+    "OutsideTemp": 42.2,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/075802",
+    "InsideTemp": 43.2,
+    "InsideLux": 3139.17,
+    "OutsideTemp": 41.1,
+    "OutsideLux": 45469.16,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/080002",
+    "InsideTemp": 42.7,
+    "InsideLux": 2987.5,
+    "OutsideTemp": 39.9,
+    "OutsideLux": 18853.33,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/080202",
+    "InsideTemp": 42.5,
+    "InsideLux": 2833.33,
+    "OutsideTemp": 39,
+    "OutsideLux": 3100,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/080402",
+    "InsideTemp": 41.9,
+    "InsideLux": 2649.17,
+    "OutsideTemp": 38.3,
+    "OutsideLux": 2822.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/080602",
+    "InsideTemp": 41.6,
+    "InsideLux": 2469.17,
+    "OutsideTemp": 37.8,
+    "OutsideLux": 2779.17,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/080802",
+    "InsideTemp": 41.2,
+    "InsideLux": 2290.83,
+    "OutsideTemp": 37.3,
+    "OutsideLux": 2717.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/080802",
+    "InsideTemp": 43.1,
+    "InsideLux": 5466.67,
+    "OutsideTemp": 49.5,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/081002",
+    "InsideTemp": 43.3,
+    "InsideLux": 5460,
+    "OutsideTemp": 49.8,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/081202",
+    "InsideTemp": 43.6,
+    "InsideLux": 5415,
+    "OutsideTemp": 50.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/081402",
+    "InsideTemp": 43.8,
+    "InsideLux": 5384.17,
+    "OutsideTemp": 50.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/081602",
+    "InsideTemp": 44.5,
+    "InsideLux": 5383.33,
+    "OutsideTemp": 51.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/081802",
+    "InsideTemp": 43.8,
+    "InsideLux": 5748.33,
+    "OutsideTemp": 49.6,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/082002",
+    "InsideTemp": 43.6,
+    "InsideLux": 5721.67,
+    "OutsideTemp": 50.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/082202",
+    "InsideTemp": 43.5,
+    "InsideLux": 5666.67,
+    "OutsideTemp": 50.6,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/082402",
+    "InsideTemp": 43.4,
+    "InsideLux": 5675.83,
+    "OutsideTemp": 49.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/082602",
+    "InsideTemp": 43.3,
+    "InsideLux": 5582.5,
+    "OutsideTemp": 49,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/082802",
+    "InsideTemp": 43.4,
+    "InsideLux": 5496.67,
+    "OutsideTemp": 49.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/083002",
+    "InsideTemp": 43.4,
+    "InsideLux": 5390.83,
+    "OutsideTemp": 49.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/083202",
+    "InsideTemp": 43.4,
+    "InsideLux": 5282.5,
+    "OutsideTemp": 49.2,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/083402",
+    "InsideTemp": 43.4,
+    "InsideLux": 5137.5,
+    "OutsideTemp": 49.5,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/083602",
+    "InsideTemp": 43.2,
+    "InsideLux": 4895,
+    "OutsideTemp": 49.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/083802",
+    "InsideTemp": 43,
+    "InsideLux": 4773.33,
+    "OutsideTemp": 48.8,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/084202",
+    "InsideTemp": 43,
+    "InsideLux": 4733.33,
+    "OutsideTemp": 48.7,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/084402",
+    "InsideTemp": 43.4,
+    "InsideLux": 4494.17,
+    "OutsideTemp": 48.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/084602",
+    "InsideTemp": 43.6,
+    "InsideLux": 4277.5,
+    "OutsideTemp": 49,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/084802",
+    "InsideTemp": 43.8,
+    "InsideLux": 3955,
+    "OutsideTemp": 46.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/085002",
+    "InsideTemp": 43.5,
+    "InsideLux": 3686.67,
+    "OutsideTemp": 44.7,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/085202",
+    "InsideTemp": 43.5,
+    "InsideLux": 3495,
+    "OutsideTemp": 44.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/085402",
+    "InsideTemp": 43.3,
+    "InsideLux": 3290,
+    "OutsideTemp": 42.2,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/085602",
+    "InsideTemp": 43.2,
+    "InsideLux": 3139.17,
+    "OutsideTemp": 41.1,
+    "OutsideLux": 45469.16,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/085802",
+    "InsideTemp": 42.7,
+    "InsideLux": 2987.5,
+    "OutsideTemp": 39.9,
+    "OutsideLux": 18853.33,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/090002",
+    "InsideTemp": 42.5,
+    "InsideLux": 2833.33,
+    "OutsideTemp": 39,
+    "OutsideLux": 3100,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/090202",
+    "InsideTemp": 41.9,
+    "InsideLux": 2649.17,
+    "OutsideTemp": 38.3,
+    "OutsideLux": 2822.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/090402",
+    "InsideTemp": 41.6,
+    "InsideLux": 2469.17,
+    "OutsideTemp": 37.8,
+    "OutsideLux": 2779.17,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/090602",
+    "InsideTemp": 41.2,
+    "InsideLux": 2290.83,
+    "OutsideTemp": 37.3,
+    "OutsideLux": 2717.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/155602",
+    "InsideTemp": 34.2,
+    "InsideLux": 5064.17,
+    "OutsideTemp": 39.9,
+    "OutsideLux": 49008.33,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170520/100300",
+    "InsideTemp": 38,
+    "InsideLux": 1734.17,
+    "OutsideTemp": 38,
+    "OutsideLux": 20646.67,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170520/100700",
+    "InsideTemp": 38,
+    "InsideLux": 2590,
+    "OutsideTemp": 35,
+    "OutsideLux": 18275,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170520/094900",
+    "InsideTemp": 40,
+    "InsideLux": 3027.5,
+    "OutsideTemp": 39,
+    "OutsideLux": 54612.5,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "250520/081002",
+    "InsideTemp": 40.6,
+    "InsideLux": 2473.33,
+    "OutsideTemp": 36.9,
+    "OutsideLux": 2630,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "250520/081202",
+    "InsideTemp": 40.4,
+    "InsideLux": 2254.17,
+    "OutsideTemp": 36.6,
+    "OutsideLux": 2560,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "250520/090802",
+    "InsideTemp": 40.6,
+    "InsideLux": 2473.33,
+    "OutsideTemp": 36.9,
+    "OutsideLux": 2630,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "250520/091002",
+    "InsideTemp": 40.4,
+    "InsideLux": 2254.17,
+    "OutsideTemp": 36.6,
+    "OutsideLux": 2560,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "170520/095500",
+    "InsideTemp": 39,
+    "InsideLux": 2155.83,
+    "OutsideTemp": 38,
+    "OutsideLux": 6746.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "230520/151802",
+    "InsideTemp": 34,
+    "InsideLux": 246.67,
+    "OutsideTemp": 34,
+    "OutsideLux": 662.5,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/081402",
+    "InsideTemp": 39.9,
+    "InsideLux": 2192.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 2575,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/081602",
+    "InsideTemp": 39.4,
+    "InsideLux": 1730.83,
+    "OutsideTemp": 36,
+    "OutsideLux": 2584.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/093402",
+    "InsideTemp": 37.7,
+    "InsideLux": 860.83,
+    "OutsideTemp": 35.2,
+    "OutsideLux": 2474.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/110002",
+    "InsideTemp": 33.3,
+    "InsideLux": 357.5,
+    "OutsideTemp": 33,
+    "OutsideLux": 2208.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/110202",
+    "InsideTemp": 33.5,
+    "InsideLux": 382.5,
+    "OutsideTemp": 33,
+    "OutsideLux": 2239.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "270520/103202",
+    "InsideTemp": 33.6,
+    "InsideLux": 350.83,
+    "OutsideTemp": 33,
+    "OutsideLux": 1970,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "270520/103402",
+    "InsideTemp": 33.6,
+    "InsideLux": 359.17,
+    "OutsideTemp": 33,
+    "OutsideLux": 1983.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "270520/103602",
+    "InsideTemp": 33.7,
+    "InsideLux": 388.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 2109.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "270520/165402",
+    "InsideTemp": 29.2,
+    "InsideLux": 310,
+    "OutsideTemp": 27.9,
+    "OutsideLux": 1810.83,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "270520/165602",
+    "InsideTemp": 29.3,
+    "InsideLux": 331.67,
+    "OutsideTemp": 28,
+    "OutsideLux": 1903.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "270520/165802",
+    "InsideTemp": 29.4,
+    "InsideLux": 349.17,
+    "OutsideTemp": 28,
+    "OutsideLux": 2022.5,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "270520/170002",
+    "InsideTemp": 29.4,
+    "InsideLux": 350.83,
+    "OutsideTemp": 28.2,
+    "OutsideLux": 2031.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/070402",
+    "InsideTemp": 29.5,
+    "InsideLux": 320.83,
+    "OutsideTemp": 28.3,
+    "OutsideLux": 1750.83,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/070602",
+    "InsideTemp": 29.5,
+    "InsideLux": 981.67,
+    "OutsideTemp": 28.4,
+    "OutsideLux": 6800,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/070802",
+    "InsideTemp": 29.6,
+    "InsideLux": 431.67,
+    "OutsideTemp": 28.5,
+    "OutsideLux": 3871.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/074602",
+    "InsideTemp": 29.5,
+    "InsideLux": 642.5,
+    "OutsideTemp": 29.6,
+    "OutsideLux": 7274.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/074802",
+    "InsideTemp": 29.9,
+    "InsideLux": 660.83,
+    "OutsideTemp": 29.5,
+    "OutsideLux": 7600,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/081802",
+    "InsideTemp": 29.6,
+    "InsideLux": 636.67,
+    "OutsideTemp": 29.5,
+    "OutsideLux": 7703.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/082002",
+    "InsideTemp": 29.6,
+    "InsideLux": 545,
+    "OutsideTemp": 29.5,
+    "OutsideLux": 6642.5,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/082202",
+    "InsideTemp": 29.6,
+    "InsideLux": 553.33,
+    "OutsideTemp": 29.3,
+    "OutsideLux": 6605.83,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "280520/082402",
+    "InsideTemp": 29.6,
+    "InsideLux": 565.83,
+    "OutsideTemp": 29.3,
+    "OutsideLux": 7118.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "230520/151602",
+    "InsideTemp": 34,
+    "InsideLux": 55.83,
+    "OutsideTemp": 34,
+    "OutsideLux": 654.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "230520/152002",
+    "InsideTemp": 34,
+    "InsideLux": 246.67,
+    "OutsideTemp": 34,
+    "OutsideLux": 744.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "230520/152202",
+    "InsideTemp": 34,
+    "InsideLux": 246.67,
+    "OutsideTemp": 34,
+    "OutsideLux": 899.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095002",
+    "InsideTemp": 36.3,
+    "InsideLux": 275,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2429.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095002",
+    "InsideTemp": 36.6,
+    "InsideLux": 707.5,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 2478.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095202",
+    "InsideTemp": 36.3,
+    "InsideLux": 245.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2196.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095202",
+    "InsideTemp": 36.7,
+    "InsideLux": 679.17,
+    "OutsideTemp": 35.7,
+    "OutsideLux": 2522.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095402",
+    "InsideTemp": 36.3,
+    "InsideLux": 230.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2064.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095402",
+    "InsideTemp": 37,
+    "InsideLux": 655,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 2552.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095602",
+    "InsideTemp": 37.2,
+    "InsideLux": 223.33,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2021.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095602",
+    "InsideTemp": 36.5,
+    "InsideLux": 634.17,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 2557.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095802",
+    "InsideTemp": 36.5,
+    "InsideLux": 217.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 2009.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/095802",
+    "InsideTemp": 36.8,
+    "InsideLux": 609.17,
+    "OutsideTemp": 35.7,
+    "OutsideLux": 2590.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100002",
+    "InsideTemp": 36.3,
+    "InsideLux": 207.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1995.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100002",
+    "InsideTemp": 36.6,
+    "InsideLux": 590,
+    "OutsideTemp": 35.7,
+    "OutsideLux": 2645.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100202",
+    "InsideTemp": 36.5,
+    "InsideLux": 205,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1990.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100202",
+    "InsideTemp": 36.5,
+    "InsideLux": 576.67,
+    "OutsideTemp": 35.8,
+    "OutsideLux": 2690.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100402",
+    "InsideTemp": 36.5,
+    "InsideLux": 210,
+    "OutsideTemp": 36.1,
+    "OutsideLux": 2018.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100402",
+    "InsideTemp": 36.5,
+    "InsideLux": 556.67,
+    "OutsideTemp": 35.8,
+    "OutsideLux": 2660.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100602",
+    "InsideTemp": 35.3,
+    "InsideLux": 202.5,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 2010,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100602",
+    "InsideTemp": 36.5,
+    "InsideLux": 535.83,
+    "OutsideTemp": 36,
+    "OutsideLux": 2640.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100802",
+    "InsideTemp": 36.3,
+    "InsideLux": 193.33,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 1900,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/100802",
+    "InsideTemp": 36.4,
+    "InsideLux": 511.67,
+    "OutsideTemp": 36,
+    "OutsideLux": 2608.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101002",
+    "InsideTemp": 36.3,
+    "InsideLux": 188.33,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1851.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101002",
+    "InsideTemp": 36.4,
+    "InsideLux": 498.33,
+    "OutsideTemp": 36.1,
+    "OutsideLux": 2691.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101202",
+    "InsideTemp": 36.3,
+    "InsideLux": 185,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1869.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101202",
+    "InsideTemp": 36.4,
+    "InsideLux": 489.17,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 2739.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101402",
+    "InsideTemp": 36.3,
+    "InsideLux": 175,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 1742.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101402",
+    "InsideTemp": 36.5,
+    "InsideLux": 476.67,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 2774.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101602",
+    "InsideTemp": 36.3,
+    "InsideLux": 166.67,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1678.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101602",
+    "InsideTemp": 36.4,
+    "InsideLux": 462.5,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 2794.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101802",
+    "InsideTemp": 36.3,
+    "InsideLux": 160.83,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1620,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/101802",
+    "InsideTemp": 36.5,
+    "InsideLux": 449.17,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 2733.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102002",
+    "InsideTemp": 36.3,
+    "InsideLux": 160,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1611.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102002",
+    "InsideTemp": 36.4,
+    "InsideLux": 441.67,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 2811.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102202",
+    "InsideTemp": 36.3,
+    "InsideLux": 150,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1555,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102202",
+    "InsideTemp": 36.4,
+    "InsideLux": 470.83,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 3315,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102402",
+    "InsideTemp": 36.7,
+    "InsideLux": 156.67,
+    "OutsideTemp": 36.1,
+    "OutsideLux": 1572.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102402",
+    "InsideTemp": 36.4,
+    "InsideLux": 417.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 2901.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102602",
+    "InsideTemp": 36.2,
+    "InsideLux": 135,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1392.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102602",
+    "InsideTemp": 36.4,
+    "InsideLux": 366.67,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2683.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102802",
+    "InsideTemp": 36.2,
+    "InsideLux": 142.5,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1511.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/102802",
+    "InsideTemp": 36.4,
+    "InsideLux": 362.5,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2958.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103002",
+    "InsideTemp": 36.6,
+    "InsideLux": 147.5,
+    "OutsideTemp": 36,
+    "OutsideLux": 1515,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103002",
+    "InsideTemp": 36.4,
+    "InsideLux": 390,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 3178.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103202",
+    "InsideTemp": 36.2,
+    "InsideLux": 140,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1460,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103202",
+    "InsideTemp": 36.5,
+    "InsideLux": 363.33,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2792.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103402",
+    "InsideTemp": 36.3,
+    "InsideLux": 133.33,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1386.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103402",
+    "InsideTemp": 36.5,
+    "InsideLux": 384.17,
+    "OutsideTemp": 36.7,
+    "OutsideLux": 3302.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103602",
+    "InsideTemp": 36.5,
+    "InsideLux": 131.67,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1385.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103602",
+    "InsideTemp": 36.5,
+    "InsideLux": 342.5,
+    "OutsideTemp": 36.6,
+    "OutsideLux": 2844.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/103802",
+    "InsideTemp": 36.5,
+    "InsideLux": 324.17,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2763.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104002",
+    "InsideTemp": 36.5,
+    "InsideLux": 132.5,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 1365.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104002",
+    "InsideTemp": 36.5,
+    "InsideLux": 305.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2546.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104202",
+    "InsideTemp": 36.5,
+    "InsideLux": 130.83,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1387.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104202",
+    "InsideTemp": 36.5,
+    "InsideLux": 292.5,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2473.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104402",
+    "InsideTemp": 36.5,
+    "InsideLux": 126.67,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 1330,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104402",
+    "InsideTemp": 36.5,
+    "InsideLux": 360.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 3721.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104602",
+    "InsideTemp": 36.5,
+    "InsideLux": 120,
+    "OutsideTemp": 36.6,
+    "OutsideLux": 1314.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104602",
+    "InsideTemp": 36.3,
+    "InsideLux": 305.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2945,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104802",
+    "InsideTemp": 36.5,
+    "InsideLux": 108.33,
+    "OutsideTemp": 36.6,
+    "OutsideLux": 1316.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/104802",
+    "InsideTemp": 36.3,
+    "InsideLux": 275,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2429.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105002",
+    "InsideTemp": 36.5,
+    "InsideLux": 130,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 1320,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105002",
+    "InsideTemp": 36.3,
+    "InsideLux": 245.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2196.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105202",
+    "InsideTemp": 37,
+    "InsideLux": 125,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 1291.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105202",
+    "InsideTemp": 36.3,
+    "InsideLux": 230.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2064.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105402",
+    "InsideTemp": 36.5,
+    "InsideLux": 125.83,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1309.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105402",
+    "InsideTemp": 37.2,
+    "InsideLux": 223.33,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2021.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105602",
+    "InsideTemp": 36.5,
+    "InsideLux": 123.33,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 1240.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105602",
+    "InsideTemp": 36.5,
+    "InsideLux": 217.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 2009.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105802",
+    "InsideTemp": 35.9,
+    "InsideLux": 125,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 1280.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/105802",
+    "InsideTemp": 36.3,
+    "InsideLux": 207.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1995.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/110002",
+    "InsideTemp": 36.5,
+    "InsideLux": 122.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1192.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/110202",
+    "InsideTemp": 36.5,
+    "InsideLux": 120,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1225,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/110402",
+    "InsideTemp": 36.5,
+    "InsideLux": 120,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 832.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/110602",
+    "InsideTemp": 36,
+    "InsideLux": 106.67,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 1270,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/110802",
+    "InsideTemp": 36.5,
+    "InsideLux": 106.67,
+    "OutsideTemp": 36.1,
+    "OutsideLux": 1247.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/111002",
+    "InsideTemp": 36.5,
+    "InsideLux": 106.67,
+    "OutsideTemp": 36,
+    "OutsideLux": 1252.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/111202",
+    "InsideTemp": 36.4,
+    "InsideLux": 100.83,
+    "OutsideTemp": 35.8,
+    "OutsideLux": 1159.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/111402",
+    "InsideTemp": 36.4,
+    "InsideLux": 100.83,
+    "OutsideTemp": 36,
+    "OutsideLux": 1187.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/111602",
+    "InsideTemp": 36.4,
+    "InsideLux": 100,
+    "OutsideTemp": 35.9,
+    "OutsideLux": 1164.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/111802",
+    "InsideTemp": 36.4,
+    "InsideLux": 99.17,
+    "OutsideTemp": 35.9,
+    "OutsideLux": 1137.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/112002",
+    "InsideTemp": 35.3,
+    "InsideLux": 100.83,
+    "OutsideTemp": 35.6,
+    "OutsideLux": 1171.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/112402",
+    "InsideTemp": 36.2,
+    "InsideLux": 98.33,
+    "OutsideTemp": 35.7,
+    "OutsideLux": 1110.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/112602",
+    "InsideTemp": 36.2,
+    "InsideLux": 95.83,
+    "OutsideTemp": 35.6,
+    "OutsideLux": 1092.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/112802",
+    "InsideTemp": 36,
+    "InsideLux": 96.67,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 1130,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/113002",
+    "InsideTemp": 36,
+    "InsideLux": 95.83,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 1109.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/113202",
+    "InsideTemp": 35,
+    "InsideLux": 93.33,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 1077.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/113402",
+    "InsideTemp": 36,
+    "InsideLux": 100.83,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 1077.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/113602",
+    "InsideTemp": 36,
+    "InsideLux": 100,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 1075,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/113802",
+    "InsideTemp": 35.9,
+    "InsideLux": 95.83,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 1029.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/114202",
+    "InsideTemp": 35.9,
+    "InsideLux": 95.83,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 1069.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/114402",
+    "InsideTemp": 35.9,
+    "InsideLux": 95.83,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 1050,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/114602",
+    "InsideTemp": 35.9,
+    "InsideLux": 95.83,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 1025.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/114802",
+    "InsideTemp": 35.9,
+    "InsideLux": 95.83,
+    "OutsideTemp": 35.3,
+    "OutsideLux": 1003.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/115002",
+    "InsideTemp": 35.9,
+    "InsideLux": 94.17,
+    "OutsideTemp": 35.3,
+    "OutsideLux": 994.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/115202",
+    "InsideTemp": 35.8,
+    "InsideLux": 94.17,
+    "OutsideTemp": 35.2,
+    "OutsideLux": 1006.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/115402",
+    "InsideTemp": 35.8,
+    "InsideLux": 95,
+    "OutsideTemp": 35.1,
+    "OutsideLux": 1008.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/115602",
+    "InsideTemp": 35.7,
+    "InsideLux": 64.17,
+    "OutsideTemp": 35,
+    "OutsideLux": 858.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/115802",
+    "InsideTemp": 35.7,
+    "InsideLux": 98.33,
+    "OutsideTemp": 35.3,
+    "OutsideLux": 895.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/120202",
+    "InsideTemp": 35.6,
+    "InsideLux": 92.5,
+    "OutsideTemp": 34.8,
+    "OutsideLux": 899.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/120402",
+    "InsideTemp": 35.6,
+    "InsideLux": 101.67,
+    "OutsideTemp": 35,
+    "OutsideLux": 901.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/120602",
+    "InsideTemp": 35.6,
+    "InsideLux": 93.33,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 900,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/120802",
+    "InsideTemp": 35.5,
+    "InsideLux": 99.17,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 853.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/121002",
+    "InsideTemp": 36,
+    "InsideLux": 95,
+    "OutsideTemp": 34.8,
+    "OutsideLux": 861.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/121202",
+    "InsideTemp": 35.5,
+    "InsideLux": 97.5,
+    "OutsideTemp": 34.8,
+    "OutsideLux": 877.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/121402",
+    "InsideTemp": 35.5,
+    "InsideLux": 97.5,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 776.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/121602",
+    "InsideTemp": 35.5,
+    "InsideLux": 97.5,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 783.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/121802",
+    "InsideTemp": 35.2,
+    "InsideLux": 790.83,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 751.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/122002",
+    "InsideTemp": 34.3,
+    "InsideLux": 67.5,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 755.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/122202",
+    "InsideTemp": 34.9,
+    "InsideLux": 65,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 655.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/122402",
+    "InsideTemp": 35,
+    "InsideLux": 45.83,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 644.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/122602",
+    "InsideTemp": 35,
+    "InsideLux": 58.33,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 759.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/122802",
+    "InsideTemp": 35,
+    "InsideLux": 59.17,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 761.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/123002",
+    "InsideTemp": 35,
+    "InsideLux": 59.17,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 763.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/123002",
+    "InsideTemp": 34.9,
+    "InsideLux": 56.67,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 717.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/123202",
+    "InsideTemp": 34.9,
+    "InsideLux": 58.33,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 735,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/123402",
+    "InsideTemp": 34.9,
+    "InsideLux": 54.17,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 698.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/123602",
+    "InsideTemp": 34.9,
+    "InsideLux": 57.5,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 727.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/123802",
+    "InsideTemp": 34.9,
+    "InsideLux": 55,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 699.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/124002",
+    "InsideTemp": 34.9,
+    "InsideLux": 56.67,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 713.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/124202",
+    "InsideTemp": 34.8,
+    "InsideLux": 54.17,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 675.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/124402",
+    "InsideTemp": 34.8,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 656.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/124602",
+    "InsideTemp": 34.9,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 660.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/124802",
+    "InsideTemp": 34.9,
+    "InsideLux": 50,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 640.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/125002",
+    "InsideTemp": 34.8,
+    "InsideLux": 49.17,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 628.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/125202",
+    "InsideTemp": 34.9,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 647.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/125402",
+    "InsideTemp": 34.9,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 645,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/125602",
+    "InsideTemp": 35.8,
+    "InsideLux": 48.33,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 600.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/125802",
+    "InsideTemp": 34.9,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 646.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/130002",
+    "InsideTemp": 34.1,
+    "InsideLux": 50,
+    "OutsideTemp": 34.6,
+    "OutsideLux": 640.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/130202",
+    "InsideTemp": 34.9,
+    "InsideLux": 48.33,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 594.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/130402",
+    "InsideTemp": 34.9,
+    "InsideLux": 55.83,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 691.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/130602",
+    "InsideTemp": 34.7,
+    "InsideLux": 58.33,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 693.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/130802",
+    "InsideTemp": 34.9,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 747.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/131002",
+    "InsideTemp": 34.8,
+    "InsideLux": 69.17,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 1053.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/131202",
+    "InsideTemp": 34,
+    "InsideLux": 93.33,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1345.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/131402",
+    "InsideTemp": 34.7,
+    "InsideLux": 115,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 1612.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/131602",
+    "InsideTemp": 34.8,
+    "InsideLux": 116.67,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 1512.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/131802",
+    "InsideTemp": 34.4,
+    "InsideLux": 100,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 1150,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/132002",
+    "InsideTemp": 34.9,
+    "InsideLux": 88.33,
+    "OutsideTemp": 34.6,
+    "OutsideLux": 1133.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/132202",
+    "InsideTemp": 34.9,
+    "InsideLux": 106.67,
+    "OutsideTemp": 34.6,
+    "OutsideLux": 1523.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/132402",
+    "InsideTemp": 35.3,
+    "InsideLux": 97.5,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 1302.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/132602",
+    "InsideTemp": 34.8,
+    "InsideLux": 73.33,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 910.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/132802",
+    "InsideTemp": 34.9,
+    "InsideLux": 64.17,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 805.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/133002",
+    "InsideTemp": 34.8,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 670.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/133202",
+    "InsideTemp": 34.1,
+    "InsideLux": 49.17,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 610,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/133402",
+    "InsideTemp": 34.9,
+    "InsideLux": 55.83,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 655.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/133602",
+    "InsideTemp": 34.9,
+    "InsideLux": 49.17,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 588.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/133802",
+    "InsideTemp": 34.8,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 600,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/134002",
+    "InsideTemp": 34.8,
+    "InsideLux": 45.83,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 527.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/134202",
+    "InsideTemp": 34.8,
+    "InsideLux": 48.33,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 552.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/134402",
+    "InsideTemp": 34.8,
+    "InsideLux": 45.83,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 559.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/134602",
+    "InsideTemp": 34.8,
+    "InsideLux": 46.67,
+    "OutsideTemp": 34,
+    "OutsideLux": 541.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/134802",
+    "InsideTemp": 34.8,
+    "InsideLux": 45,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 545.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/135002",
+    "InsideTemp": 34.8,
+    "InsideLux": 43.33,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 517.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/135202",
+    "InsideTemp": 34.8,
+    "InsideLux": 45.83,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 537.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/135402",
+    "InsideTemp": 34.8,
+    "InsideLux": 46.67,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 550,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/135602",
+    "InsideTemp": 34.7,
+    "InsideLux": 45.83,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 540.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/135802",
+    "InsideTemp": 34.7,
+    "InsideLux": 46.67,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 555,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/150002",
+    "InsideTemp": 34.7,
+    "InsideLux": 47.5,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 545,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/150202",
+    "InsideTemp": 34.7,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 581.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/150402",
+    "InsideTemp": 34.7,
+    "InsideLux": 53.33,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 650.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/150602",
+    "InsideTemp": 34.7,
+    "InsideLux": 68.33,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 838.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/150802",
+    "InsideTemp": 34.7,
+    "InsideLux": 80.83,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 1010,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/151002",
+    "InsideTemp": 33.9,
+    "InsideLux": 77.5,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1115,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/151202",
+    "InsideTemp": 34.6,
+    "InsideLux": 95,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1515,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/151402",
+    "InsideTemp": 34.8,
+    "InsideLux": 124.17,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1738.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/151602",
+    "InsideTemp": 34.7,
+    "InsideLux": 120,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1505,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/151802",
+    "InsideTemp": 34.6,
+    "InsideLux": 120,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1660.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/152002",
+    "InsideTemp": 34.6,
+    "InsideLux": 134.17,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 1863.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/152202",
+    "InsideTemp": 34.6,
+    "InsideLux": 133.33,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1751.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/152402",
+    "InsideTemp": 34.6,
+    "InsideLux": 126.67,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 1679.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/152602",
+    "InsideTemp": 34.6,
+    "InsideLux": 135.83,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 1828.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/152802",
+    "InsideTemp": 34.6,
+    "InsideLux": 130,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 1777.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/153002",
+    "InsideTemp": 34.6,
+    "InsideLux": 122.5,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1589.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/153202",
+    "InsideTemp": 34.6,
+    "InsideLux": 110.83,
+    "OutsideTemp": 34.3,
+    "OutsideLux": 1484.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/153402",
+    "InsideTemp": 34.6,
+    "InsideLux": 110,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 1532.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/153602",
+    "InsideTemp": 34.6,
+    "InsideLux": 96.67,
+    "OutsideTemp": 34,
+    "OutsideLux": 1477.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/153802",
+    "InsideTemp": 34.6,
+    "InsideLux": 242.5,
+    "OutsideTemp": 34.2,
+    "OutsideLux": 1390.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/154002",
+    "InsideTemp": 34.6,
+    "InsideLux": 243.33,
+    "OutsideTemp": 33.9,
+    "OutsideLux": 1312.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/103802",
+    "InsideTemp": 33.6,
+    "InsideLux": 439.17,
+    "OutsideTemp": 32.9,
+    "OutsideLux": 2218.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/104002",
+    "InsideTemp": 33.7,
+    "InsideLux": 454.17,
+    "OutsideTemp": 33,
+    "OutsideLux": 2300,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/104202",
+    "InsideTemp": 33.7,
+    "InsideLux": 469.17,
+    "OutsideTemp": 33,
+    "OutsideLux": 2405.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/104402",
+    "InsideTemp": 33.7,
+    "InsideLux": 471.67,
+    "OutsideTemp": 33,
+    "OutsideLux": 2444.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/104602",
+    "InsideTemp": 33.7,
+    "InsideLux": 475.83,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 2468.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/104802",
+    "InsideTemp": 33.7,
+    "InsideLux": 472.5,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 2538.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/105002",
+    "InsideTemp": 34.4,
+    "InsideLux": 458.33,
+    "OutsideTemp": 32.9,
+    "OutsideLux": 2523.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/105202",
+    "InsideTemp": 33.7,
+    "InsideLux": 455.83,
+    "OutsideTemp": 33,
+    "OutsideLux": 2506.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/105402",
+    "InsideTemp": 33.7,
+    "InsideLux": 455,
+    "OutsideTemp": 33,
+    "OutsideLux": 2500.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/105602",
+    "InsideTemp": 33.7,
+    "InsideLux": 438.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 2437.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/105802",
+    "InsideTemp": 33.7,
+    "InsideLux": 420,
+    "OutsideTemp": 33,
+    "OutsideLux": 2335,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/110002",
+    "InsideTemp": 33.7,
+    "InsideLux": 414.17,
+    "OutsideTemp": 33,
+    "OutsideLux": 2278.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/110202",
+    "InsideTemp": 33.7,
+    "InsideLux": 403.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 2213.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/110402",
+    "InsideTemp": 33.7,
+    "InsideLux": 400.83,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 2169.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/110602",
+    "InsideTemp": 33.7,
+    "InsideLux": 388.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 2086.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/110802",
+    "InsideTemp": 33.7,
+    "InsideLux": 373.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 1992.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/111002",
+    "InsideTemp": 33.6,
+    "InsideLux": 346.67,
+    "OutsideTemp": 33,
+    "OutsideLux": 1874.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/111202",
+    "InsideTemp": 33.6,
+    "InsideLux": 324.17,
+    "OutsideTemp": 33,
+    "OutsideLux": 1762.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/111402",
+    "InsideTemp": 32.7,
+    "InsideLux": 298.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 1649.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/111602",
+    "InsideTemp": 33.7,
+    "InsideLux": 293.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 1596.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/111802",
+    "InsideTemp": 33.6,
+    "InsideLux": 291.67,
+    "OutsideTemp": 33,
+    "OutsideLux": 1571.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/112002",
+    "InsideTemp": 33.6,
+    "InsideLux": 302.5,
+    "OutsideTemp": 33,
+    "OutsideLux": 1607.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/112202",
+    "InsideTemp": 33.6,
+    "InsideLux": 328.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 1731.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/112402",
+    "InsideTemp": 33.5,
+    "InsideLux": 366.67,
+    "OutsideTemp": 33,
+    "OutsideLux": 1916.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/112602",
+    "InsideTemp": 33.6,
+    "InsideLux": 388.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 2085.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/112802",
+    "InsideTemp": 33.6,
+    "InsideLux": 417.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2264.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/113002",
+    "InsideTemp": 33.6,
+    "InsideLux": 453.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2448.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/113202",
+    "InsideTemp": 33.7,
+    "InsideLux": 491.67,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2656.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/113402",
+    "InsideTemp": 33.2,
+    "InsideLux": 530.83,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2886.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/113602",
+    "InsideTemp": 33.7,
+    "InsideLux": 598.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 3219.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/113802",
+    "InsideTemp": 33.8,
+    "InsideLux": 602.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 3313.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/114002",
+    "InsideTemp": 33.9,
+    "InsideLux": 574.17,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 3109.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/114202",
+    "InsideTemp": 34,
+    "InsideLux": 552.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2882.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/114402",
+    "InsideTemp": 33.9,
+    "InsideLux": 528.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2730,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/114602",
+    "InsideTemp": 33.9,
+    "InsideLux": 528.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2603.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/114802",
+    "InsideTemp": 33.9,
+    "InsideLux": 490.83,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2532.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/115002",
+    "InsideTemp": 33.9,
+    "InsideLux": 495,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2598.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/115202",
+    "InsideTemp": 33.9,
+    "InsideLux": 506.67,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2704.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/115402",
+    "InsideTemp": 34,
+    "InsideLux": 510.83,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2755.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/115602",
+    "InsideTemp": 33.9,
+    "InsideLux": 504.17,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2740,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/115802",
+    "InsideTemp": 34,
+    "InsideLux": 500,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2668.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/120002",
+    "InsideTemp": 34.4,
+    "InsideLux": 496.67,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2581.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/120202",
+    "InsideTemp": 34.4,
+    "InsideLux": 496.67,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2517.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/120402",
+    "InsideTemp": 33,
+    "InsideLux": 513.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2580.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/120802",
+    "InsideTemp": 34,
+    "InsideLux": 357.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 1623.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/121002",
+    "InsideTemp": 33.9,
+    "InsideLux": 509.17,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 2610,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/121402",
+    "InsideTemp": 34,
+    "InsideLux": 471.67,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 2463.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/121602",
+    "InsideTemp": 33.9,
+    "InsideLux": 440,
+    "OutsideTemp": 33,
+    "OutsideLux": 2285,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/121802",
+    "InsideTemp": 33.8,
+    "InsideLux": 420,
+    "OutsideTemp": 33,
+    "OutsideLux": 2180.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/122002",
+    "InsideTemp": 33.8,
+    "InsideLux": 419.17,
+    "OutsideTemp": 33,
+    "OutsideLux": 2153.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/122202",
+    "InsideTemp": 33.7,
+    "InsideLux": 432.5,
+    "OutsideTemp": 33,
+    "OutsideLux": 2232.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/122602",
+    "InsideTemp": 33.8,
+    "InsideLux": 444.17,
+    "OutsideTemp": 33,
+    "OutsideLux": 2295.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/122802",
+    "InsideTemp": 33.9,
+    "InsideLux": 455,
+    "OutsideTemp": 33,
+    "OutsideLux": 2314.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/123002",
+    "InsideTemp": 33.8,
+    "InsideLux": 450.83,
+    "OutsideTemp": 33,
+    "OutsideLux": 2352.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/123202",
+    "InsideTemp": 34.4,
+    "InsideLux": 459.17,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 2360,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/123402",
+    "InsideTemp": 33.8,
+    "InsideLux": 458.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2371.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/071002",
+    "InsideTemp": 29.1,
+    "InsideLux": 364.17,
+    "OutsideTemp": 28.3,
+    "OutsideLux": 3351.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/071202",
+    "InsideTemp": 29.2,
+    "InsideLux": 303.33,
+    "OutsideTemp": 28.2,
+    "OutsideLux": 3229.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/071402",
+    "InsideTemp": 29.1,
+    "InsideLux": 294.17,
+    "OutsideTemp": 28,
+    "OutsideLux": 3199.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/071602",
+    "InsideTemp": 28.8,
+    "InsideLux": 275.83,
+    "OutsideTemp": 28.2,
+    "OutsideLux": 3061.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/071802",
+    "InsideTemp": 29.1,
+    "InsideLux": 262.5,
+    "OutsideTemp": 28.1,
+    "OutsideLux": 2917.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/072002",
+    "InsideTemp": 29,
+    "InsideLux": 259.17,
+    "OutsideTemp": 28,
+    "OutsideLux": 2890,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/072202",
+    "InsideTemp": 28.9,
+    "InsideLux": 260,
+    "OutsideTemp": 28,
+    "OutsideLux": 2870,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/072402",
+    "InsideTemp": 28.9,
+    "InsideLux": 252.5,
+    "OutsideTemp": 28,
+    "OutsideLux": 2745,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/072602",
+    "InsideTemp": 28.8,
+    "InsideLux": 236.67,
+    "OutsideTemp": 28,
+    "OutsideLux": 2533.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/072802",
+    "InsideTemp": 28.8,
+    "InsideLux": 230.83,
+    "OutsideTemp": 28,
+    "OutsideLux": 2444.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/073002",
+    "InsideTemp": 28.7,
+    "InsideLux": 239.17,
+    "OutsideTemp": 27.9,
+    "OutsideLux": 2546.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/073202",
+    "InsideTemp": 28.7,
+    "InsideLux": 260.83,
+    "OutsideTemp": 27.9,
+    "OutsideLux": 2817.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/073402",
+    "InsideTemp": 28.7,
+    "InsideLux": 289.17,
+    "OutsideTemp": 27.9,
+    "OutsideLux": 3170.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/073602",
+    "InsideTemp": 28.7,
+    "InsideLux": 320.83,
+    "OutsideTemp": 28,
+    "OutsideLux": 3541.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/073802",
+    "InsideTemp": 28.7,
+    "InsideLux": 361.67,
+    "OutsideTemp": 28.1,
+    "OutsideLux": 4051.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/074002",
+    "InsideTemp": 29.1,
+    "InsideLux": 492.5,
+    "OutsideTemp": 28.7,
+    "OutsideLux": 5102.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/074202",
+    "InsideTemp": 29.2,
+    "InsideLux": 611.67,
+    "OutsideTemp": 28.9,
+    "OutsideLux": 6124.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/074402",
+    "InsideTemp": 29.2,
+    "InsideLux": 1066.67,
+    "OutsideTemp": 29.2,
+    "OutsideLux": 9441.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/090402",
+    "InsideTemp": 31,
+    "InsideLux": 940.83,
+    "OutsideTemp": 30.2,
+    "OutsideLux": 8910.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/090602",
+    "InsideTemp": 31,
+    "InsideLux": 1060.83,
+    "OutsideTemp": 30.5,
+    "OutsideLux": 9714.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/090802",
+    "InsideTemp": 31.1,
+    "InsideLux": 1140,
+    "OutsideTemp": 30.7,
+    "OutsideLux": 9725.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/091002",
+    "InsideTemp": 31.2,
+    "InsideLux": 976.67,
+    "OutsideTemp": 30.7,
+    "OutsideLux": 8905.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/091202",
+    "InsideTemp": 31.2,
+    "InsideLux": 976.67,
+    "OutsideTemp": 30.9,
+    "OutsideLux": 8664.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/091402",
+    "InsideTemp": 31.2,
+    "InsideLux": 960,
+    "OutsideTemp": 31,
+    "OutsideLux": 8627.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/091602",
+    "InsideTemp": 31.2,
+    "InsideLux": 946.67,
+    "OutsideTemp": 31,
+    "OutsideLux": 8269.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/091802",
+    "InsideTemp": 31.2,
+    "InsideLux": 928.33,
+    "OutsideTemp": 30.9,
+    "OutsideLux": 8016.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/092002",
+    "InsideTemp": 31.2,
+    "InsideLux": 966.67,
+    "OutsideTemp": 30.9,
+    "OutsideLux": 7793.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/092202",
+    "InsideTemp": 30.7,
+    "InsideLux": 927.5,
+    "OutsideTemp": 31,
+    "OutsideLux": 7560.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/092402",
+    "InsideTemp": 31.3,
+    "InsideLux": 910,
+    "OutsideTemp": 31,
+    "OutsideLux": 7962.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/092602",
+    "InsideTemp": 31.3,
+    "InsideLux": 1157.5,
+    "OutsideTemp": 31,
+    "OutsideLux": 10033.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/092802",
+    "InsideTemp": 31.4,
+    "InsideLux": 1195,
+    "OutsideTemp": 31.4,
+    "OutsideLux": 10175.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/093002",
+    "InsideTemp": 31.5,
+    "InsideLux": 955,
+    "OutsideTemp": 31.5,
+    "OutsideLux": 9360.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/093202",
+    "InsideTemp": 31.5,
+    "InsideLux": 921.67,
+    "OutsideTemp": 31.6,
+    "OutsideLux": 9128.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/093402",
+    "InsideTemp": 31.6,
+    "InsideLux": 1120.83,
+    "OutsideTemp": 32,
+    "OutsideLux": 9994.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/093602",
+    "InsideTemp": 31.6,
+    "InsideLux": 990.83,
+    "OutsideTemp": 31.8,
+    "OutsideLux": 9602.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "280520/093802",
+    "InsideTemp": 31.7,
+    "InsideLux": 921.67,
+    "OutsideTemp": 31.7,
+    "OutsideLux": 9134.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/123602",
+    "InsideTemp": 33.8,
+    "InsideLux": 450,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2286.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/123802",
+    "InsideTemp": 33.8,
+    "InsideLux": 430.83,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2196.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/124002",
+    "InsideTemp": 33.7,
+    "InsideLux": 430,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2166.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/124202",
+    "InsideTemp": 33.7,
+    "InsideLux": 433.33,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2156.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/124402",
+    "InsideTemp": 33.7,
+    "InsideLux": 430,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2086.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/124602",
+    "InsideTemp": 33.8,
+    "InsideLux": 420.83,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 2047.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/124802",
+    "InsideTemp": 33.8,
+    "InsideLux": 426.67,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2056.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/125002",
+    "InsideTemp": 33.8,
+    "InsideLux": 426.67,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2064.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/125202",
+    "InsideTemp": 33.7,
+    "InsideLux": 422.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2055.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/125202",
+    "InsideTemp": 33.7,
+    "InsideLux": 434.17,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2067.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/125402",
+    "InsideTemp": 33.7,
+    "InsideLux": 452.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2153.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/125602",
+    "InsideTemp": 32.7,
+    "InsideLux": 480,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2312.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/125802",
+    "InsideTemp": 33.9,
+    "InsideLux": 504.17,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 2516.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/130002",
+    "InsideTemp": 33.2,
+    "InsideLux": 527.5,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 2640.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/130202",
+    "InsideTemp": 33.9,
+    "InsideLux": 545.83,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 2710.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/135202",
+    "InsideTemp": 33.9,
+    "InsideLux": 316.67,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 1632.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/135402",
+    "InsideTemp": 33.8,
+    "InsideLux": 301.67,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 1524.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/135602",
+    "InsideTemp": 33.8,
+    "InsideLux": 286.67,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 1430,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/135802",
+    "InsideTemp": 33.8,
+    "InsideLux": 275,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 1345,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/140002",
+    "InsideTemp": 33.8,
+    "InsideLux": 275,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 1247.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/140202",
+    "InsideTemp": 33.7,
+    "InsideLux": 253.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 1185,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/140402",
+    "InsideTemp": 33.7,
+    "InsideLux": 247.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 1207.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/140602",
+    "InsideTemp": 33.7,
+    "InsideLux": 241.67,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 1229.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/140802",
+    "InsideTemp": 33.9,
+    "InsideLux": 220,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 1160.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/141002",
+    "InsideTemp": 33.9,
+    "InsideLux": 213.33,
+    "OutsideTemp": 33.6,
+    "OutsideLux": 1104.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/141202",
+    "InsideTemp": 33.9,
+    "InsideLux": 193.33,
+    "OutsideTemp": 33.5,
+    "OutsideLux": 988.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/141402",
+    "InsideTemp": 33.9,
+    "InsideLux": 193.33,
+    "OutsideTemp": 33.6,
+    "OutsideLux": 843.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/141602",
+    "InsideTemp": 33.8,
+    "InsideLux": 162.5,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 762.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/141802",
+    "InsideTemp": 33.8,
+    "InsideLux": 167.5,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 747.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/142002",
+    "InsideTemp": 33.8,
+    "InsideLux": 189.17,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 840,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/142202",
+    "InsideTemp": 34.6,
+    "InsideLux": 202.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 956.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/142402",
+    "InsideTemp": 33.7,
+    "InsideLux": 200,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 982.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/142602",
+    "InsideTemp": 33.7,
+    "InsideLux": 190.83,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 936.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/142802",
+    "InsideTemp": 33.7,
+    "InsideLux": 173.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 868.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/143002",
+    "InsideTemp": 33.7,
+    "InsideLux": 160.83,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 800,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/143202",
+    "InsideTemp": 33.6,
+    "InsideLux": 245,
+    "OutsideTemp": 33,
+    "OutsideLux": 739.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/143402",
+    "InsideTemp": 33.7,
+    "InsideLux": 240.83,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 666.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/143602",
+    "InsideTemp": 33.8,
+    "InsideLux": 238.33,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 648.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/143802",
+    "InsideTemp": 33.7,
+    "InsideLux": 190.83,
+    "OutsideTemp": 33,
+    "OutsideLux": 655.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/144002",
+    "InsideTemp": 33.7,
+    "InsideLux": 258.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 652.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/144202",
+    "InsideTemp": 32.9,
+    "InsideLux": 257.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 658.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/144402",
+    "InsideTemp": 33.8,
+    "InsideLux": 263.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 698.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/144602",
+    "InsideTemp": 33.8,
+    "InsideLux": 264.17,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 725,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/144802",
+    "InsideTemp": 33.9,
+    "InsideLux": 268.33,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 750,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/145002",
+    "InsideTemp": 33.8,
+    "InsideLux": 270,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 749.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/145202",
+    "InsideTemp": 33.7,
+    "InsideLux": 269.17,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 743.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/145402",
+    "InsideTemp": 33.8,
+    "InsideLux": 266.67,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 737.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/145602",
+    "InsideTemp": 33.8,
+    "InsideLux": 264.17,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 763.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/145802",
+    "InsideTemp": 33.9,
+    "InsideLux": 266.67,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 800,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/150002",
+    "InsideTemp": 33.8,
+    "InsideLux": 145.83,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 816.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/150202",
+    "InsideTemp": 33.7,
+    "InsideLux": 117.5,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 670.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/150402",
+    "InsideTemp": 33.7,
+    "InsideLux": 100,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 570.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/150802",
+    "InsideTemp": 33.7,
+    "InsideLux": 87.5,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 485,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/151002",
+    "InsideTemp": 33.7,
+    "InsideLux": 75,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 404.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/151202",
+    "InsideTemp": 33.7,
+    "InsideLux": 69.17,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 367.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/151402",
+    "InsideTemp": 33.7,
+    "InsideLux": 68.33,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 363.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/151602",
+    "InsideTemp": 33.7,
+    "InsideLux": 65.83,
+    "OutsideTemp": 33,
+    "OutsideLux": 345.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/151802",
+    "InsideTemp": 33.6,
+    "InsideLux": 61.67,
+    "OutsideTemp": 33,
+    "OutsideLux": 329.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/152002",
+    "InsideTemp": 33.6,
+    "InsideLux": 58.33,
+    "OutsideTemp": 32.8,
+    "OutsideLux": 309.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/152202",
+    "InsideTemp": 33.5,
+    "InsideLux": 55,
+    "OutsideTemp": 32.8,
+    "OutsideLux": 294.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/152402",
+    "InsideTemp": 33.5,
+    "InsideLux": 55.83,
+    "OutsideTemp": 32.9,
+    "OutsideLux": 298.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/152602",
+    "InsideTemp": 33.5,
+    "InsideLux": 60,
+    "OutsideTemp": 32.8,
+    "OutsideLux": 325.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/152802",
+    "InsideTemp": 33.5,
+    "InsideLux": 62.5,
+    "OutsideTemp": 32.8,
+    "OutsideLux": 343.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/153002",
+    "InsideTemp": 33.5,
+    "InsideLux": 62.5,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 345,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/153202",
+    "InsideTemp": 33.5,
+    "InsideLux": 60,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 330.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/153402",
+    "InsideTemp": 33.3,
+    "InsideLux": 55.83,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 304.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/153602",
+    "InsideTemp": 33.3,
+    "InsideLux": 53.33,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 288.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/153802",
+    "InsideTemp": 33.2,
+    "InsideLux": 54.17,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 290.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/154002",
+    "InsideTemp": 33.3,
+    "InsideLux": 55,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 296.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/154202",
+    "InsideTemp": 33.3,
+    "InsideLux": 56.67,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 313.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/154402",
+    "InsideTemp": 33.3,
+    "InsideLux": 57.5,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 320,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/154602",
+    "InsideTemp": 33.3,
+    "InsideLux": 57.5,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 346.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/154802",
+    "InsideTemp": 33.2,
+    "InsideLux": 62.5,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 346.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/155002",
+    "InsideTemp": 33.2,
+    "InsideLux": 60,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 327.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/155202",
+    "InsideTemp": 33.2,
+    "InsideLux": 59.17,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 324.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/155402",
+    "InsideTemp": 33.2,
+    "InsideLux": 60,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 320,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/155602",
+    "InsideTemp": 33.2,
+    "InsideLux": 62.5,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 339.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/155802",
+    "InsideTemp": 33.5,
+    "InsideLux": 64.17,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 353.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/160002",
+    "InsideTemp": 33.2,
+    "InsideLux": 63.33,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 349.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/160402",
+    "InsideTemp": 33.2,
+    "InsideLux": 62.5,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 344.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/160602",
+    "InsideTemp": 33.1,
+    "InsideLux": 61.67,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 341.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/160802",
+    "InsideTemp": 33.2,
+    "InsideLux": 62.5,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 348.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/161002",
+    "InsideTemp": 33.2,
+    "InsideLux": 62.5,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 350.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/161202",
+    "InsideTemp": 33.1,
+    "InsideLux": 60.83,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 339.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/161402",
+    "InsideTemp": 33.2,
+    "InsideLux": 60.83,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 345.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/161602",
+    "InsideTemp": 33.1,
+    "InsideLux": 62.5,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 349.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/161802",
+    "InsideTemp": 33.2,
+    "InsideLux": 57.5,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 326.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/162002",
+    "InsideTemp": 33.3,
+    "InsideLux": 55.83,
+    "OutsideTemp": 32.9,
+    "OutsideLux": 314.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/162202",
+    "InsideTemp": 33.7,
+    "InsideLux": 55,
+    "OutsideTemp": 32.9,
+    "OutsideLux": 311.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/162402",
+    "InsideTemp": 33.2,
+    "InsideLux": 60.83,
+    "OutsideTemp": 32.9,
+    "OutsideLux": 350,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/162602",
+    "InsideTemp": 33.7,
+    "InsideLux": 57.5,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 329.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/162802",
+    "InsideTemp": 33.2,
+    "InsideLux": 55,
+    "OutsideTemp": 32.9,
+    "OutsideLux": 317.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/163002",
+    "InsideTemp": 34.1,
+    "InsideLux": 48.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 285,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/163202",
+    "InsideTemp": 33.4,
+    "InsideLux": 47.5,
+    "OutsideTemp": 33,
+    "OutsideLux": 283.33,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/163402",
+    "InsideTemp": 33.5,
+    "InsideLux": 45,
+    "OutsideTemp": 33,
+    "OutsideLux": 274.17,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/163602",
+    "InsideTemp": 33.4,
+    "InsideLux": 43.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 268.33,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/163802",
+    "InsideTemp": 33,
+    "InsideLux": 43.33,
+    "OutsideTemp": 33.1,
+    "OutsideLux": 268.33,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/164002",
+    "InsideTemp": 33.5,
+    "InsideLux": 43.33,
+    "OutsideTemp": 33,
+    "OutsideLux": 266.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/164202",
+    "InsideTemp": 32.6,
+    "InsideLux": 42.5,
+    "OutsideTemp": 33,
+    "OutsideLux": 260,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/164402",
+    "InsideTemp": 33.5,
+    "InsideLux": 41.67,
+    "OutsideTemp": 33,
+    "OutsideLux": 256.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/164802",
+    "InsideTemp": 33.5,
+    "InsideLux": 40,
+    "OutsideTemp": 32.8,
+    "OutsideLux": 251.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "270520/165002",
+    "InsideTemp": 33.4,
+    "InsideLux": 40,
+    "OutsideTemp": 32.8,
+    "OutsideLux": 249.17,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/094002",
+    "InsideTemp": 31.5,
+    "InsideLux": 897.5,
+    "OutsideTemp": 31.8,
+    "OutsideLux": 8399.17,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/094202",
+    "InsideTemp": 31.5,
+    "InsideLux": 863.33,
+    "OutsideTemp": 32,
+    "OutsideLux": 8040,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/094402",
+    "InsideTemp": 31.6,
+    "InsideLux": 873.33,
+    "OutsideTemp": 31.7,
+    "OutsideLux": 7993.33,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/094602",
+    "InsideTemp": 31.5,
+    "InsideLux": 862.5,
+    "OutsideTemp": 31.9,
+    "OutsideLux": 7537.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/094802",
+    "InsideTemp": 31.5,
+    "InsideLux": 900.83,
+    "OutsideTemp": 32.1,
+    "OutsideLux": 7332.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/100602",
+    "InsideTemp": 31.4,
+    "InsideLux": 859.17,
+    "OutsideTemp": 32.1,
+    "OutsideLux": 6938.33,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/102802",
+    "InsideTemp": 31.8,
+    "InsideLux": 660.83,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 5602.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/103002",
+    "InsideTemp": 31.8,
+    "InsideLux": 597.5,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 5076.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/103202",
+    "InsideTemp": 31.9,
+    "InsideLux": 537.5,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 4504.17,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/103402",
+    "InsideTemp": 31.8,
+    "InsideLux": 492.5,
+    "OutsideTemp": 32.3,
+    "OutsideLux": 4271.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/103602",
+    "InsideTemp": 31.8,
+    "InsideLux": 447.5,
+    "OutsideTemp": 32.3,
+    "OutsideLux": 4025,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/103802",
+    "InsideTemp": 31.8,
+    "InsideLux": 414.17,
+    "OutsideTemp": 32.1,
+    "OutsideLux": 3871.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/104002",
+    "InsideTemp": 31.5,
+    "InsideLux": 394.17,
+    "OutsideTemp": 32.1,
+    "OutsideLux": 3777.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "230520/151602",
+    "InsideTemp": 34,
+    "InsideLux": 106.67,
+    "OutsideTemp": 34,
+    "OutsideLux": 650,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/082602",
+    "InsideTemp": 31,
+    "InsideLux": 2250.83,
+    "OutsideTemp": 30.6,
+    "OutsideLux": 1133.33,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/082802",
+    "InsideTemp": 31.2,
+    "InsideLux": 1461.67,
+    "OutsideTemp": 30.4,
+    "OutsideLux": 6239.17,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/083002",
+    "InsideTemp": 31.2,
+    "InsideLux": 1665.83,
+    "OutsideTemp": 30.2,
+    "OutsideLux": 7070,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/083202",
+    "InsideTemp": 31.2,
+    "InsideLux": 1775.83,
+    "OutsideTemp": 30.3,
+    "OutsideLux": 7763.33,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/090202",
+    "InsideTemp": 31,
+    "InsideLux": 1578.33,
+    "OutsideTemp": 30.4,
+    "OutsideLux": 8301.67,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/104202",
+    "InsideTemp": 31.7,
+    "InsideLux": 494.17,
+    "OutsideTemp": 32.2,
+    "OutsideLux": 3635.83,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/104402",
+    "InsideTemp": 31.7,
+    "InsideLux": 490.83,
+    "OutsideTemp": 32.1,
+    "OutsideLux": 3597.5,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/104802",
+    "InsideTemp": 31.7,
+    "InsideLux": 460.83,
+    "OutsideTemp": 32.2,
+    "OutsideLux": 3505,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "170620/084002",
+    "InsideTemp": 31.8,
+    "InsideLux": 210,
+    "OutsideTemp": 31.3,
+    "OutsideLux": 2347.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/084202",
+    "InsideTemp": 31.8,
+    "InsideLux": 223.33,
+    "OutsideTemp": 31.2,
+    "OutsideLux": 2377.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/084402",
+    "InsideTemp": 31.8,
+    "InsideLux": 224.17,
+    "OutsideTemp": 31.2,
+    "OutsideLux": 2325,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/084602",
+    "InsideTemp": 31.8,
+    "InsideLux": 225.83,
+    "OutsideTemp": 31.2,
+    "OutsideLux": 2395,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/084802",
+    "InsideTemp": 31.8,
+    "InsideLux": 235,
+    "OutsideTemp": 31.3,
+    "OutsideLux": 2545.83,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/085002",
+    "InsideTemp": 31.9,
+    "InsideLux": 255,
+    "OutsideTemp": 31.4,
+    "OutsideLux": 2786.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/085202",
+    "InsideTemp": 32,
+    "InsideLux": 300.83,
+    "OutsideTemp": 31.6,
+    "OutsideLux": 3407.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/085402",
+    "InsideTemp": 32,
+    "InsideLux": 360.83,
+    "OutsideTemp": 31.7,
+    "OutsideLux": 3881.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/085602",
+    "InsideTemp": 31.5,
+    "InsideLux": 380.83,
+    "OutsideTemp": 31.9,
+    "OutsideLux": 4032.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/085802",
+    "InsideTemp": 32.2,
+    "InsideLux": 373.33,
+    "OutsideTemp": 32,
+    "OutsideLux": 3650,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/090002",
+    "InsideTemp": 32.2,
+    "InsideLux": 370,
+    "OutsideTemp": 32.1,
+    "OutsideLux": 3891.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/090202",
+    "InsideTemp": 32.2,
+    "InsideLux": 445.83,
+    "OutsideTemp": 32.2,
+    "OutsideLux": 4532.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "170620/090402",
+    "InsideTemp": 32.3,
+    "InsideLux": 286.67,
+    "OutsideTemp": 32.2,
+    "OutsideLux": 4038.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/090602",
+    "InsideTemp": 32.3,
+    "InsideLux": 275.83,
+    "OutsideTemp": 32.2,
+    "OutsideLux": 3632.5,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/090802",
+    "InsideTemp": 32.3,
+    "InsideLux": 296.67,
+    "OutsideTemp": 32.4,
+    "OutsideLux": 4053.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/091002",
+    "InsideTemp": 32.3,
+    "InsideLux": 296.67,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 6395,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/091202",
+    "InsideTemp": 32.5,
+    "InsideLux": 353.33,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 4466.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/091402",
+    "InsideTemp": 32.5,
+    "InsideLux": 332.5,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 4490.83,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/091602",
+    "InsideTemp": 32.5,
+    "InsideLux": 343.33,
+    "OutsideTemp": 32.7,
+    "OutsideLux": 4703.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/091802",
+    "InsideTemp": 32.5,
+    "InsideLux": 308.33,
+    "OutsideTemp": 32.6,
+    "OutsideLux": 5024.17,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "170620/092002",
+    "InsideTemp": 32.6,
+    "InsideLux": 628.33,
+    "OutsideTemp": 32.9,
+    "OutsideLux": 14612.5,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "170620/092202",
+    "InsideTemp": 32.6,
+    "InsideLux": 628.33,
+    "OutsideTemp": 34.1,
+    "OutsideLux": 17350,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170620/092402",
+    "InsideTemp": 32.6,
+    "InsideLux": 628.33,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 9647.5,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170620/092402",
+    "InsideTemp": 32.6,
+    "InsideLux": 628.33,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 9617.5,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170620/092602",
+    "InsideTemp": 32.6,
+    "InsideLux": 628.33,
+    "OutsideTemp": 33.7,
+    "OutsideLux": 8769.17,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170620/092802",
+    "InsideTemp": 33.1,
+    "InsideLux": 861.67,
+    "OutsideTemp": 35.1,
+    "OutsideLux": 27328.33,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170620/093202",
+    "InsideTemp": 33.7,
+    "InsideLux": 548.33,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 18901.67,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170620/093402",
+    "InsideTemp": 33.7,
+    "InsideLux": 380.83,
+    "OutsideTemp": 34.8,
+    "OutsideLux": 8965,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170620/093602",
+    "InsideTemp": 33.7,
+    "InsideLux": 677.5,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 30130,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170620/093802",
+    "InsideTemp": 33.7,
+    "InsideLux": 1091.67,
+    "OutsideTemp": 35.2,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170620/094002",
+    "InsideTemp": 33.8,
+    "InsideLux": 520,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 16023.33,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170620/094202",
+    "InsideTemp": 33.9,
+    "InsideLux": 375.83,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 10308.33,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170620/094402",
+    "InsideTemp": 33.8,
+    "InsideLux": 537.5,
+    "OutsideTemp": 34.6,
+    "OutsideLux": 11419.17,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170620/094602",
+    "InsideTemp": 33.8,
+    "InsideLux": 480.83,
+    "OutsideTemp": 34.7,
+    "OutsideLux": 10825,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170620/094802",
+    "InsideTemp": 33.8,
+    "InsideLux": 480.83,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 9000.83,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/095002",
+    "InsideTemp": 33.9,
+    "InsideLux": 575,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 9182.5,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/095202",
+    "InsideTemp": 33.9,
+    "InsideLux": 741.67,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 12688.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/095402",
+    "InsideTemp": 33.9,
+    "InsideLux": 606.67,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 9549.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/095602",
+    "InsideTemp": 33.9,
+    "InsideLux": 725,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 8977.5,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/095802",
+    "InsideTemp": 33.1,
+    "InsideLux": 687.5,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 9309.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/100002",
+    "InsideTemp": 33.9,
+    "InsideLux": 593.33,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 9435,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/100202",
+    "InsideTemp": 33.9,
+    "InsideLux": 590.83,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 9315,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/100402",
+    "InsideTemp": 33.9,
+    "InsideLux": 570,
+    "OutsideTemp": 34.4,
+    "OutsideLux": 9027.5,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "170620/100602",
+    "InsideTemp": 34,
+    "InsideLux": 570,
+    "OutsideTemp": 34.5,
+    "OutsideLux": 8906.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/064402",
+    "InsideTemp": 36.5,
+    "InsideLux": 5019.17,
+    "OutsideTemp": 43.7,
+    "OutsideLux": 50988.33,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/064602",
+    "InsideTemp": 37.1,
+    "InsideLux": 5067.5,
+    "OutsideTemp": 45.6,
+    "OutsideLux": 52023.33,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/064802",
+    "InsideTemp": 38.1,
+    "InsideLux": 5025.83,
+    "OutsideTemp": 47.5,
+    "OutsideLux": 52448.33,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/065002",
+    "InsideTemp": 38.9,
+    "InsideLux": 5166.67,
+    "OutsideTemp": 47.6,
+    "OutsideLux": 54588.33,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/065202",
+    "InsideTemp": 39.5,
+    "InsideLux": 5216.67,
+    "OutsideTemp": 49.2,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/065402",
+    "InsideTemp": 40,
+    "InsideLux": 5257.5,
+    "OutsideTemp": 49,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/065602",
+    "InsideTemp": 40.7,
+    "InsideLux": 5088.33,
+    "OutsideTemp": 50.7,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/065802",
+    "InsideTemp": 41,
+    "InsideLux": 5156.67,
+    "OutsideTemp": 50.7,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "250520/070002",
+    "InsideTemp": 41.5,
+    "InsideLux": 5227.5,
+    "OutsideTemp": 50,
+    "OutsideLux": 54612.5,
+    "Servo": 0
+  },
+  {
+    "TimeStamp": "170520/101500",
+    "InsideTemp": 38,
+    "InsideLux": 1885,
+    "OutsideTemp": 35,
+    "OutsideLux": 6080.83,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170520/101700",
+    "InsideTemp": 38,
+    "InsideLux": 1637.5,
+    "OutsideTemp": 35,
+    "OutsideLux": 4822.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "230520/153202",
+    "InsideTemp": 34.2,
+    "InsideLux": 5064.17,
+    "OutsideTemp": 39.9,
+    "OutsideLux": 49008.33,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/071002",
+    "InsideTemp": 43.1,
+    "InsideLux": 5466.67,
+    "OutsideTemp": 49.5,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/071202",
+    "InsideTemp": 43.3,
+    "InsideLux": 5460,
+    "OutsideTemp": 49.8,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/071402",
+    "InsideTemp": 43.6,
+    "InsideLux": 5415,
+    "OutsideTemp": 50.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/071602",
+    "InsideTemp": 43.8,
+    "InsideLux": 5384.17,
+    "OutsideTemp": 50.1,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/071802",
+    "InsideTemp": 44.5,
+    "InsideLux": 5383.33,
+    "OutsideTemp": 51.3,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "250520/072002",
+    "InsideTemp": 43.8,
+    "InsideLux": 5748.33,
+    "OutsideTemp": 49.6,
+    "OutsideLux": 54612.5,
+    "Servo": 30
+  },
+  {
+    "TimeStamp": "170520/095900",
+    "InsideTemp": 39,
+    "InsideLux": 4545,
+    "OutsideTemp": 37,
+    "OutsideLux": 29982.5,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170520/100100",
+    "InsideTemp": 39,
+    "InsideLux": 2088.33,
+    "OutsideTemp": 38,
+    "OutsideLux": 28640,
+    "Servo": 45
+  },
+  {
+    "TimeStamp": "170520/095300",
+    "InsideTemp": 39,
+    "InsideLux": 2630,
+    "OutsideTemp": 39,
+    "OutsideLux": 48041.66,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "170520/095300",
+    "InsideTemp": 39,
+    "InsideLux": 4360.83,
+    "OutsideTemp": 38,
+    "OutsideLux": 26438.33,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "170520/095700",
+    "InsideTemp": 40,
+    "InsideLux": 2646.67,
+    "OutsideTemp": 38,
+    "OutsideLux": 8602.5,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "230520/151202",
+    "InsideTemp": 34,
+    "InsideLux": 54.17,
+    "OutsideTemp": 34,
+    "OutsideLux": 723.33,
+    "Servo": 60
+  },
+  {
+    "TimeStamp": "250520/082002",
+    "InsideTemp": 39.2,
+    "InsideLux": 1555.83,
+    "OutsideTemp": 35.9,
+    "OutsideLux": 2483.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/082202",
+    "InsideTemp": 39,
+    "InsideLux": 1405,
+    "OutsideTemp": 35.6,
+    "OutsideLux": 2483.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/082402",
+    "InsideTemp": 38.7,
+    "InsideLux": 1270,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 2478.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/082602",
+    "InsideTemp": 38.5,
+    "InsideLux": 1165,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 2529.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/082802",
+    "InsideTemp": 38.4,
+    "InsideLux": 1071.67,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 2494.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/083002",
+    "InsideTemp": 38.4,
+    "InsideLux": 1071.67,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 2501.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/083202",
+    "InsideTemp": 38,
+    "InsideLux": 944.17,
+    "OutsideTemp": 35.2,
+    "OutsideLux": 2495.83,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/083402",
+    "InsideTemp": 37.9,
+    "InsideLux": 896.67,
+    "OutsideTemp": 35.3,
+    "OutsideLux": 2476.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/083602",
+    "InsideTemp": 37.7,
+    "InsideLux": 860.83,
+    "OutsideTemp": 35.2,
+    "OutsideLux": 2474.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/091202",
+    "InsideTemp": 39.9,
+    "InsideLux": 2192.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 2575,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/091402",
+    "InsideTemp": 39.4,
+    "InsideLux": 1730.83,
+    "OutsideTemp": 36,
+    "OutsideLux": 2584.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/091602",
+    "InsideTemp": 39.2,
+    "InsideLux": 1555.83,
+    "OutsideTemp": 35.9,
+    "OutsideLux": 2483.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/092002",
+    "InsideTemp": 39,
+    "InsideLux": 1405,
+    "OutsideTemp": 35.6,
+    "OutsideLux": 2483.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/092202",
+    "InsideTemp": 38.7,
+    "InsideLux": 1270,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 2478.33,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/092402",
+    "InsideTemp": 38.5,
+    "InsideLux": 1165,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 2529.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/092602",
+    "InsideTemp": 38.4,
+    "InsideLux": 1071.67,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 2494.17,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/092802",
+    "InsideTemp": 38.4,
+    "InsideLux": 1071.67,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 2501.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/093002",
+    "InsideTemp": 38,
+    "InsideLux": 944.17,
+    "OutsideTemp": 35.2,
+    "OutsideLux": 2495.83,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "250520/093202",
+    "InsideTemp": 37.9,
+    "InsideLux": 896.67,
+    "OutsideTemp": 35.3,
+    "OutsideLux": 2476.67,
+    "Servo": 90
+  },
+  {
+    "TimeStamp": "230520/152402",
+    "InsideTemp": 34,
+    "InsideLux": 246.67,
+    "OutsideTemp": 34,
+    "OutsideLux": 702.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "230520/152602",
+    "InsideTemp": 34,
+    "InsideLux": 92.5,
+    "OutsideTemp": 33,
+    "OutsideLux": 1040.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "230520/153002",
+    "InsideTemp": 34,
+    "InsideLux": 82.5,
+    "OutsideTemp": 34,
+    "OutsideLux": 739.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/084002",
+    "InsideTemp": 38.4,
+    "InsideLux": 900,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 2478.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/084202",
+    "InsideTemp": 37.2,
+    "InsideLux": 861.67,
+    "OutsideTemp": 35,
+    "OutsideLux": 2535.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/084402",
+    "InsideTemp": 36.9,
+    "InsideLux": 829.17,
+    "OutsideTemp": 35.1,
+    "OutsideLux": 2545.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/084602",
+    "InsideTemp": 36.8,
+    "InsideLux": 791.67,
+    "OutsideTemp": 34.8,
+    "OutsideLux": 2594.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/084802",
+    "InsideTemp": 36.7,
+    "InsideLux": 760,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 2513.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/085002",
+    "InsideTemp": 36.5,
+    "InsideLux": 736.67,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 2565.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/085202",
+    "InsideTemp": 36.6,
+    "InsideLux": 707.5,
+    "OutsideTemp": 35.4,
+    "OutsideLux": 2478.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/085402",
+    "InsideTemp": 36.7,
+    "InsideLux": 679.17,
+    "OutsideTemp": 35.7,
+    "OutsideLux": 2522.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/085602",
+    "InsideTemp": 37,
+    "InsideLux": 655,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 2552.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/085802",
+    "InsideTemp": 36.5,
+    "InsideLux": 634.17,
+    "OutsideTemp": 35.5,
+    "OutsideLux": 2557.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/090002",
+    "InsideTemp": 36.8,
+    "InsideLux": 609.17,
+    "OutsideTemp": 35.7,
+    "OutsideLux": 2590.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/090202",
+    "InsideTemp": 36.6,
+    "InsideLux": 590,
+    "OutsideTemp": 35.7,
+    "OutsideLux": 2645.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/090402",
+    "InsideTemp": 36.5,
+    "InsideLux": 576.67,
+    "OutsideTemp": 35.8,
+    "OutsideLux": 2690.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/090602",
+    "InsideTemp": 36.5,
+    "InsideLux": 556.67,
+    "OutsideTemp": 35.8,
+    "OutsideLux": 2660.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/090802",
+    "InsideTemp": 36.5,
+    "InsideLux": 535.83,
+    "OutsideTemp": 36,
+    "OutsideLux": 2640.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/091002",
+    "InsideTemp": 36.4,
+    "InsideLux": 511.67,
+    "OutsideTemp": 36,
+    "OutsideLux": 2608.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/091202",
+    "InsideTemp": 36.4,
+    "InsideLux": 498.33,
+    "OutsideTemp": 36.1,
+    "OutsideLux": 2691.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/091402",
+    "InsideTemp": 36.4,
+    "InsideLux": 489.17,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 2739.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/091602",
+    "InsideTemp": 36.5,
+    "InsideLux": 476.67,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 2774.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/091802",
+    "InsideTemp": 36.4,
+    "InsideLux": 462.5,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 2794.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/092002",
+    "InsideTemp": 36.5,
+    "InsideLux": 449.17,
+    "OutsideTemp": 36.2,
+    "OutsideLux": 2733.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/092202",
+    "InsideTemp": 36.4,
+    "InsideLux": 441.67,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 2811.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/092402",
+    "InsideTemp": 36.4,
+    "InsideLux": 470.83,
+    "OutsideTemp": 36.3,
+    "OutsideLux": 3315,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/092602",
+    "InsideTemp": 36.4,
+    "InsideLux": 417.5,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 2901.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/092802",
+    "InsideTemp": 36.4,
+    "InsideLux": 366.67,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2683.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/093002",
+    "InsideTemp": 36.4,
+    "InsideLux": 362.5,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2958.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/093202",
+    "InsideTemp": 36.4,
+    "InsideLux": 390,
+    "OutsideTemp": 36.4,
+    "OutsideLux": 3178.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/093402",
+    "InsideTemp": 36.5,
+    "InsideLux": 363.33,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2792.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/093602",
+    "InsideTemp": 36.5,
+    "InsideLux": 384.17,
+    "OutsideTemp": 36.7,
+    "OutsideLux": 3302.5,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/093602",
+    "InsideTemp": 37.6,
+    "InsideLux": 940,
+    "OutsideTemp": 35.1,
+    "OutsideLux": 2494.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/093802",
+    "InsideTemp": 36.5,
+    "InsideLux": 342.5,
+    "OutsideTemp": 36.6,
+    "OutsideLux": 2844.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/093802",
+    "InsideTemp": 38.4,
+    "InsideLux": 900,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 2478.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094002",
+    "InsideTemp": 36.5,
+    "InsideLux": 324.17,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2763.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094002",
+    "InsideTemp": 37.2,
+    "InsideLux": 861.67,
+    "OutsideTemp": 35,
+    "OutsideLux": 2535.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094202",
+    "InsideTemp": 36.5,
+    "InsideLux": 305.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2546.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094202",
+    "InsideTemp": 36.9,
+    "InsideLux": 829.17,
+    "OutsideTemp": 35.1,
+    "OutsideLux": 2545.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094402",
+    "InsideTemp": 36.5,
+    "InsideLux": 292.5,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2473.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094402",
+    "InsideTemp": 36.8,
+    "InsideLux": 791.67,
+    "OutsideTemp": 34.8,
+    "OutsideLux": 2594.17,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094602",
+    "InsideTemp": 36.5,
+    "InsideLux": 360.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 3721.67,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094602",
+    "InsideTemp": 36.7,
+    "InsideLux": 760,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 2513.33,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094802",
+    "InsideTemp": 36.3,
+    "InsideLux": 305.83,
+    "OutsideTemp": 36.5,
+    "OutsideLux": 2945,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "250520/094802",
+    "InsideTemp": 36.5,
+    "InsideLux": 736.67,
+    "OutsideTemp": 34.9,
+    "OutsideLux": 2565.83,
+    "Servo": 120
+  },
+  {
+    "TimeStamp": "270520/130402",
+    "InsideTemp": 34,
+    "InsideLux": 555.83,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2751.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/130602",
+    "InsideTemp": 34,
+    "InsideLux": 560,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2810,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/130802",
+    "InsideTemp": 34,
+    "InsideLux": 555.83,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2750.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/131002",
+    "InsideTemp": 34.2,
+    "InsideLux": 549.17,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 2680,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/131202",
+    "InsideTemp": 34.1,
+    "InsideLux": 534.17,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 2610,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/131402",
+    "InsideTemp": 34.1,
+    "InsideLux": 506.67,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 2553.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/131602",
+    "InsideTemp": 34.1,
+    "InsideLux": 501.67,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 2495.83,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/132002",
+    "InsideTemp": 34.1,
+    "InsideLux": 470.83,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2386.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/132202",
+    "InsideTemp": 34.1,
+    "InsideLux": 460,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 2298.33,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/132402",
+    "InsideTemp": 34,
+    "InsideLux": 427.5,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 2139.17,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/132602",
+    "InsideTemp": 34,
+    "InsideLux": 395,
+    "OutsideTemp": 33.4,
+    "OutsideLux": 1870,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/132802",
+    "InsideTemp": 34,
+    "InsideLux": 680.83,
+    "OutsideTemp": 33.2,
+    "OutsideLux": 1446.67,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "270520/133002",
+    "InsideTemp": 33.9,
+    "InsideLux": 340.83,
+    "OutsideTemp": 33.3,
+    "OutsideLux": 1757.5,
+    "Servo": 135
+  },
+  {
+    "TimeStamp": "280520/100802",
+    "InsideTemp": 31.4,
+    "InsideLux": 760.83,
+    "OutsideTemp": 31.9,
+    "OutsideLux": 6233.33,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/101002",
+    "InsideTemp": 31.5,
+    "InsideLux": 737.5,
+    "OutsideTemp": 31.7,
+    "OutsideLux": 5989.17,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/101202",
+    "InsideTemp": 31.4,
+    "InsideLux": 700.83,
+    "OutsideTemp": 31.7,
+    "OutsideLux": 5755,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/101402",
+    "InsideTemp": 31.5,
+    "InsideLux": 740.83,
+    "OutsideTemp": 32,
+    "OutsideLux": 6711.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/101602",
+    "InsideTemp": 31.7,
+    "InsideLux": 762.5,
+    "OutsideTemp": 32.2,
+    "OutsideLux": 6761.67,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/101802",
+    "InsideTemp": 31.7,
+    "InsideLux": 743.33,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 6560,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/102002",
+    "InsideTemp": 31.7,
+    "InsideLux": 729.17,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 6352.5,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/102202",
+    "InsideTemp": 31.7,
+    "InsideLux": 715.83,
+    "OutsideTemp": 32.5,
+    "OutsideLux": 6195.83,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/102602",
+    "InsideTemp": 31.7,
+    "InsideLux": 702.5,
+    "OutsideTemp": 32.3,
+    "OutsideLux": 5890,
+    "Servo": 150
+  },
+  {
+    "TimeStamp": "280520/083402",
+    "InsideTemp": 32.2,
+    "InsideLux": 1611.67,
+    "OutsideTemp": 30.4,
+    "OutsideLux": 7625,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/085802",
+    "InsideTemp": 31.1,
+    "InsideLux": 1466.67,
+    "OutsideTemp": 30.4,
+    "OutsideLux": 7373.33,
+    "Servo": 180
+  },
+  {
+    "TimeStamp": "280520/090002",
+    "InsideTemp": 31.1,
+    "InsideLux": 1450,
+    "OutsideTemp": 30.2,
+    "OutsideLux": 7523.33,
+    "Servo": 180
+  }
+]

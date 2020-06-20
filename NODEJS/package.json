@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@tensorflow/tfjs": "^2.0.1",
     "express": "^4.16.4",
     "jquery": "^3.4.0",
     "jsdom": "^14.1.0",
