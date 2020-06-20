@@ -1,9 +1,16 @@
-var storageKey = 'list';
+const storageKey = 'schedule';
+
 var socket = io();
 var list = [];
 var listString = '';
+var scheduleString = '';
 
 var htmlList = document.getElementById("history");
+
+var scheduleString = localStorage.getItem(storageKey);
+
+schedule = JSON.parse(scheduleString);
+alert(scheduleString);
 
 function convertToHTML(list){
   var content = list.map(function(item){
@@ -78,12 +85,24 @@ $(function() {
 
 $(function() { 
   $("td").click(function(){
+    console.log(this);
     if($(this).hasClass('bg-green')){
       $(this).removeClass('bg-green');
     }
     else $(this).addClass('bg-green');
-});
+  });
 })
+
+document.getElementById('schedule-table').addEventListener('click',(event)=>{
+  const elementId = event.target.id;
+  alert(elementId);
+  for(const key in schedule){
+    if (key == elementId){
+      schedule[key] = !schedule[key];
+    }
+  }
+  socket.emit('changeDataSchedule', schedule);
+});
 
 socket.on("sendDataOutside",(data) => {
       // console.log(data);
@@ -107,3 +126,5 @@ function loadData() {
     render();
   })
 }
+
+
