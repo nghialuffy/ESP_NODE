@@ -8,12 +8,12 @@
 #include <SocketIOClient.h>
 #include <time.h>
 
-#define WIFI_SSID "Nghialuffy"
-#define WIFI_PASSWORD "iloveyou3000"
+#define WIFI_SSID "DUT"
+#define WIFI_PASSWORD "11223355"
 #define DHTTYPE DHT11   // DHT 11
 #define DHTPIN D5
 #define TIMEZONE 7
-#define IP_HOST "172.20.10.2"
+#define IP_HOST "192.168.1.197"
 #define IP_PORT 8888
 
 /*

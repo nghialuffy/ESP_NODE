@@ -9,12 +9,12 @@
 #include <time.h>
 #include <Servo.h>
 
-#define WIFI_SSID "Nghialuffy"
-#define WIFI_PASSWORD "iloveyou3000"
+#define WIFI_SSID "DUT"
+#define WIFI_PASSWORD "11223355"
 #define DHTTYPE DHT11   // DHT 11
 #define DHTPIN D5
 #define TIMEZONE 7
-#define IP_HOST "172.20.10.2"
+#define IP_HOST "192.168.1.197"
 #define IP_PORT 8888
 
 /*
@@ -114,7 +114,7 @@ void setup() {
   }
 
   if (client.connected()) {
-    client.send("Connect", "Notification", "Outside connect !!!!");
+    client.send("FirstConnect", "Notification", "Outside connect !!!!");
   }
 
 }
@@ -184,7 +184,7 @@ void loop() {
     if (client.monitor()) {
       Serial.print(RID + " : " + Rfull);
       if (RID == "setServo") {
-        int pos = Rfull.toInt() + 90 ;
+        int pos = Rfull.toInt();
         int i;
         Serial.println("====================");
         if (pos > lastPos) {
@@ -199,7 +199,7 @@ void loop() {
           }
         }
         lastPos = pos;
-        client.send("servoDone", "servo", "Da quay goc : " + String(pos - 90));
+        client.send("servoDone", "servo", "Da quay goc : " + String(pos));
       }
     }
     else {
