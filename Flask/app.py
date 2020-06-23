@@ -1,13 +1,13 @@
-#!/usr/bin/python3
 import pickle
 from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
 from datetime import datetime
 from Controller.homepage import HomePage
 
+
+
 app = Flask(__name__)
 api = Api(app)
-
 api.add_resource(HomePage, '/')
 
 if __name__ == '__main__':
