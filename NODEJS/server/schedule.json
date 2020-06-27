@@ -1,0 +1,18 @@
+{
+  "data": {
+    "monAM": true,
+    "monPM": false,
+    "tueAM": false,
+    "tuePM": true,
+    "wedAM": false,
+    "wedPM": true,
+    "thuAM": true,
+    "thuPM": false,
+    "friAM": false,
+    "friPM": false,
+    "satAM": false,
+    "satPM": false,
+    "sunAM": true,
+    "sunPM": false
+  }
+}
