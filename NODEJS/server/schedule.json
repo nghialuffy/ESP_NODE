@@ -1,16 +1,16 @@
 {
   "data": {
     "monAM": false,
-    "monPM": true,
+    "monPM": false,
     "tueAM": true,
-    "tuePM": false,
+    "tuePM": true,
     "wedAM": false,
     "wedPM": true,
-    "thuAM": true,
+    "thuAM": false,
     "thuPM": false,
     "friAM": false,
-    "friPM": true,
-    "satAM": true,
+    "friPM": false,
+    "satAM": false,
     "satPM": false,
     "sunAM": false,
     "sunPM": false
