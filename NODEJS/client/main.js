@@ -1,19 +1,37 @@
-const storageKey = 'schedule';
+const storageKey = "schedule";
 
 var socket = io();
 var list = [];
-var listString = '';
-var scheduleString = '';
+var listString = "";
+var scheduleString = "";
 
 var htmlList = document.getElementById("history");
+var scheduleTable = document.getElementById("schedule-table");
 
-var scheduleString = localStorage.getItem(storageKey);
+var schedule = {};
 
-schedule = JSON.parse(scheduleString);
-alert(scheduleString);
+// schedule = {
+//   monAM: true,
+//   monPM: false,
+//   tueAM: false,
+//   tuePM: true,
+//   wedAM: false,
+//   wedPM: false,
+//   thuAM: true,
+//   thuPM: false,
+//   friAM: false,
+//   friPM: false,
+//   satAM: false,
+//   satPM: false,
+//   sunAM: false,
+//   sunPM: false
+// }
 
-function convertToHTML(list){
-  var content = list.map(function(item){
+// schedule = JSON.parse(scheduleString);
+// alert(scheduleString);
+
+function convertToHTML(list) {
+  var content = list.map(function (item) {
     return `
     <div class="item">
       <div class="item-content">Time: ${item.TimeStamp}</div>
@@ -28,7 +46,7 @@ function convertToHTML(list){
   });
   return content;
 }
-function statusHTML(item){
+function statusHTML(item) {
   return `
   <div class="item">
     <div class="item-content">Time: ${item.TimeStamp}</div>
@@ -40,17 +58,27 @@ function statusHTML(item){
     <div class="item-content-small">Temp: ${item.InsideTemp}</div>
   </div>`;
 }
-function render(){
+function render() {
   var content = convertToHTML(list);
-  htmlList.innerHTML = content.join('');
+  htmlList.innerHTML = content.join("");
+  renderSchedule();
 }
-render();
+
+function renderSchedule() {
+  console.log("Rendering schedule...");
+  for (const key in schedule) {
+    if (schedule[key] == true) {
+      document.getElementById(key).classList.add("bg-green");
+    }
+  }
+}
+//render();
 
 $("#arc-slider").roundSlider({
   sliderType: "min-range",
   circleShape: "custom-quarter",
   value: 0,
-  min:0,
+  min: 0,
   max: 180,
   startAngle: 45,
   editableTooltip: true,
@@ -58,73 +86,77 @@ $("#arc-slider").roundSlider({
   width: 6,
   handleSize: "+32",
   tooltipFormat: function (args) {
-      return args.value + '&#176;';
-  }
+    return args.value + "&#176;";
+  },
 });
 var btnSubmit = document.getElementById("btn-submit");
-btnSubmit.addEventListener("click", ()=>{
+btnSubmit.addEventListener("click", () => {
   // var socket = io();
-  var servoString = document.getElementsByClassName("edit")[0].textContent.replace("°","");
+  var servoString = document
+    .getElementsByClassName("edit")[0]
+    .textContent.replace("°", "");
   console.log(servoString);
-  socket.emit('postDataServo', servoString);
+  socket.emit("postDataServo", servoString);
   // $.post('/',
   //       { servo: servoString })
   //       .done(function() { console.log('Request done!'); })
   //       .fail(function () { console.log('Request Fail!')});
 });
 
-
-$(function() {
-  $('.set-servo-manual').hide() 
-  $('#set-mode').change(function() {
-    if ($(this).prop('checked'))
-      $('.set-servo-manual').hide()
-    else $('.set-servo-manual').show()
-  })
-})
-
-$(function() { 
-  $("td").click(function(){
-    console.log(this);
-    if($(this).hasClass('bg-green')){
-      $(this).removeClass('bg-green');
-    }
-    else $(this).addClass('bg-green');
+$(function () {
+  $(".set-servo-manual").hide();
+  $("#set-mode").change(function () {
+    if ($(this).prop("checked")) $(".set-servo-manual").hide();
+    else $(".set-servo-manual").show();
   });
-})
+});
 
-document.getElementById('schedule-table').addEventListener('click',(event)=>{
+$(function () {
+  $("td").click(function () {
+    if ($(this).hasClass("bg-green")) {
+      $(this).removeClass("bg-green");
+    } else $(this).addClass("bg-green");
+  });
+});
+
+scheduleTable.addEventListener("click", (event) => {
   const elementId = event.target.id;
-  alert(elementId);
-  for(const key in schedule){
-    if (key == elementId){
+  for (const key in schedule) {
+    if (key == elementId) {
       schedule[key] = !schedule[key];
     }
   }
-  socket.emit('changeDataSchedule', schedule);
+  socket.emit("changeDataSchedule", schedule);
 });
 
-socket.on("sendDataOutside",(data) => {
-      // console.log(data);
-      // var data = JSON.parse(dataString);
-      list.unshift(data);
-      
-      if (list.length > 3) 
-        list.pop();
-      
-      document.getElementById("info-status").innerHTML = statusHTML(data);
-      render();
-    })
+socket.on("sendDataOutside", (data) => {
+  // console.log(data);
+  // var data = JSON.parse(dataString);
+  list.unshift(data);
 
-function loadData() {
-  socket.emit('requestData', true);
-  socket.on("sendData",(data) => {
+  if (list.length > 3) list.pop();
+
+  document.getElementById("info-status").innerHTML = statusHTML(data);
+  render();
+});
+
+socket.emit("requestScheduleData", true);
+socket.on("sendScheduleData", (data) => {
+  //console.log(data);
+  schedule = data;
+  console.log(schedule);
+});
+
+async function loadData() {
+  console.log("Loading data...");
+  socket.emit("requestData", true);
+  socket.on("sendData", (data) => {
     list = data;
 
     htmlList.innerHTML = convertToHTML(list);
-    document.getElementById("info-status").innerHTML = statusHTML(list[list.length-1]);
+    document.getElementById("info-status").innerHTML = statusHTML(
+      list[list.length - 1]
+    );
     render();
-  })
+  });
 }
-
-
