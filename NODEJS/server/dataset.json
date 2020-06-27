@@ -5223,6 +5223,22 @@
       "OutsideTemp": 30.2,
       "OutsideLux": 7523.33,
       "Servo": 180
+    },
+    {
+      "TimeStamp": "250620/225402",
+      "InsideTemp": "34.00",
+      "InsideLux": "59.17",
+      "OutsideTemp": "33.00",
+      "OutsideLux": "41.67",
+      "Servo": 166
+    },
+    {
+      "TimeStamp": "250620/225402",
+      "InsideTemp": "34.00",
+      "InsideLux": "59.17",
+      "OutsideTemp": "33.00",
+      "OutsideLux": "41.67",
+      "Servo": 46
     }
   ]
 }
