@@ -1,37 +1,18 @@
 const storageKey = "schedule";
 
-var socket = io();
-var list = [];
-var listString = "";
-var scheduleString = "";
+let socket = io();
+let list = [];
+let listString = "";
+let scheduleString = "";
 
-var htmlList = document.getElementById("history");
-var scheduleTable = document.getElementById("schedule-table");
+const htmlList = document.getElementById("history");
+const scheduleTable = document.getElementById("schedule-table");
+const btnSwitchSystem = document.getElementById("btn-switch-system");
 
-var schedule = {};
-
-// schedule = {
-//   monAM: true,
-//   monPM: false,
-//   tueAM: false,
-//   tuePM: true,
-//   wedAM: false,
-//   wedPM: false,
-//   thuAM: true,
-//   thuPM: false,
-//   friAM: false,
-//   friPM: false,
-//   satAM: false,
-//   satPM: false,
-//   sunAM: false,
-//   sunPM: false
-// }
-
-// schedule = JSON.parse(scheduleString);
-// alert(scheduleString);
+let schedule = {};
 
 function convertToHTML(list) {
-  var content = list.map(function (item) {
+  const content = list.map(function (item) {
     return `
     <div class="item">
       <div class="item-content">Time: ${item.TimeStamp}</div>
@@ -59,7 +40,7 @@ function statusHTML(item) {
   </div>`;
 }
 function render() {
-  var content = convertToHTML(list);
+  const content = convertToHTML(list);
   htmlList.innerHTML = content.join("");
   renderSchedule();
 }
@@ -89,18 +70,13 @@ $("#arc-slider").roundSlider({
     return args.value + "&#176;";
   },
 });
-var btnSubmit = document.getElementById("btn-submit");
+let btnSubmit = document.getElementById("btn-submit");
 btnSubmit.addEventListener("click", () => {
-  // var socket = io();
-  var servoString = document
+  let servoString = document
     .getElementsByClassName("edit")[0]
     .textContent.replace("°", "");
   console.log(servoString);
   socket.emit("postDataServo", servoString);
-  // $.post('/',
-  //       { servo: servoString })
-  //       .done(function() { console.log('Request done!'); })
-  //       .fail(function () { console.log('Request Fail!')});
 });
 
 $(function () {
@@ -130,8 +106,6 @@ scheduleTable.addEventListener("click", (event) => {
 });
 
 socket.on("sendDataOutside", (data) => {
-  // console.log(data);
-  // var data = JSON.parse(dataString);
   list.unshift(data);
 
   if (list.length > 3) list.pop();
@@ -142,9 +116,7 @@ socket.on("sendDataOutside", (data) => {
 
 socket.emit("requestScheduleData", true);
 socket.on("sendScheduleData", (data) => {
-  //console.log(data);
   schedule = data;
-  console.log(schedule);
 });
 
 async function loadData() {
@@ -159,4 +131,12 @@ async function loadData() {
     );
     render();
   });
+}
+
+let systemStatus = btnSwitchSystem.checked;
+
+btnSwitchSystem.onchange = () => {
+  systemStatus = !systemStatus;
+  console.log(systemStatus);
+  socket.emit("changeSystemStatus", systemStatus)
 }
