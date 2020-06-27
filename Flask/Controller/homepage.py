@@ -9,8 +9,10 @@ import pandas as pd
 from csv import writer
 class HomePage(Resource):
     def post(self):
-        try:
-            datajson = request.json
+        # try:
+        datajson = json.loads(str(request.data.decode("utf-8")))
+        print(json.loads(str(request.data.decode("utf-8"))))
+        if datajson != None:
             time_stamp = datajson["timeStamp"]
             inside_temp = float(datajson["insideTemp"])
             inside_lux = float(datajson["insideLux"])
@@ -49,6 +51,7 @@ class HomePage(Resource):
                 "servoDegree" : servoDegree
             }
             return response
-        except Exception as e:
-            meserr = f"Error {e}"
-            return meserr
+        return None
+        # except Exception as e:
+        #     meserr = f"{e}"
+        #     return meserr

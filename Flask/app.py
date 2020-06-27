@@ -12,7 +12,7 @@ api.add_resource(HomePage, '/')
 
 if __name__ == '__main__':
     try:
-        app.debug = True
-        app.run(host='0.0.0.0', port=8001)
+        # app.debug = True
+        app.run(host='0.0.0.0', port=9999)
     except Exception as e:
         print('Error: ', e)
