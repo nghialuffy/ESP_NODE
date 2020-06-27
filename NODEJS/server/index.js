@@ -5,6 +5,8 @@ const axios = require('axios');
 const FileSync = require('lowdb/adapters/FileSync')
 const adapterdb = new FileSync('./db.json')
 const db = low(adapterdb)
+const adapterSchedule = new FileSync('./schedule.json')
+var schedule = low(adapterSchedule);
 
 db.defaults({ data : [] })
   .write()

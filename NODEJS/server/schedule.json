@@ -5,7 +5,7 @@
     "tueAM": false,
     "tuePM": true,
     "wedAM": false,
-    "wedPM": false,
+    "wedPM": true,
     "thuAM": true,
     "thuPM": false,
     "friAM": false,
