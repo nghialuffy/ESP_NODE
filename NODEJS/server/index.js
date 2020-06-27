@@ -163,18 +163,12 @@ io.on('connection', function (socket) {
     });
 
     socket.on('changeDataSchedule',(data) => {
-        // console.log("=================",data.monAM);
         schedule.set("data",data)
                 .write();
-
-        temp = schedule.get("data").value()
-        console.log(temp)
-
     });
     socket.on('requestScheduleData',(check)=>{
         if(check){
             const dataSchedule = schedule.get('data').value();
-            console.log(dataSchedule);
             socket.emit("sendScheduleData", dataSchedule);
         }
     })
