@@ -1,16 +1,18 @@
 {
+  "systemStatus": true,
+  "manual": true,
   "data": {
     "monAM": false,
-    "monPM": false,
+    "monPM": true,
     "tueAM": true,
-    "tuePM": true,
+    "tuePM": false,
     "wedAM": false,
     "wedPM": true,
-    "thuAM": false,
+    "thuAM": true,
     "thuPM": false,
     "friAM": false,
-    "friPM": false,
-    "satAM": false,
+    "friPM": true,
+    "satAM": true,
     "satPM": false,
     "sunAM": false,
     "sunPM": false

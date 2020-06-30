@@ -5,19 +5,12 @@ const axios = require("axios");
 const FileSync = require("lowdb/adapters/FileSync");
 const adapterdb = new FileSync("./db.json");
 const db = low(adapterdb);
-const adapterSchedule = new FileSync("./schedule.json");
-let schedule = low(adapterSchedule);
-
-// TURN ON/ OFF SYSTEM
-let systemStatus = true
-// TURN ON/ OFF SCHEDULE
-let scheduleStatus = true
-// TURN ON/ OFF AUTO/MANUAL
-let ManualStatus = true
+const adapterDataStorage = new FileSync("./dataStorage.json");
+var dataStorage = low(adapterDataStorage);
 
 db.defaults({ data: [] }).write();
 
-schedule.defaults({ data: {} }).write();
+dataStorage.defaults({ data: {} }).write();
 
 let path = require("path");
 let express = require("express"); //Đặt địa chỉ Port được mở ra để tạo ra chương trình mạng Socket Server
@@ -95,6 +88,9 @@ async function getDataOutside(vtemp, vlux, vposServo, vtime) {
                 if (checkSchedule() || ManualStatus) {
                     io.sockets.emit("setServo", parseInt(servoDegree));
                 }
+                else{
+                    console.log("Khong phai ngay lam viec");
+                }
             } else {
                 console.log("He thong dang tat")
             }
@@ -166,6 +162,9 @@ io.on("connection", function (socket) {
             if (checkSchedule() || ManualStatus) {
                 io.sockets.emit("setServo", pos);
             }
+            else{
+                console.log("Khong phai ngay lam viec");
+            }
         } else {
             console.log("He thong dang tat")
         }
@@ -195,17 +194,33 @@ io.on("connection", function (socket) {
     });
 
     socket.on("changeDataSchedule", (data) => {
-        schedule.set("data", data).write();
+        dataStorage.set("data", data).write();
     });
+
     socket.on("requestScheduleData", (check) => {
         if (check) {
-            const dataSchedule = schedule.get("data").value();
+            const dataSchedule = dataStorage.get("data").value();
             socket.emit("sendScheduleData", dataSchedule);
         }
     });
+    socket.on("requestSystemStatus", (check) => {
+        if (check) {
+            let systemStatus = dataStorage.get("systemStatus").value();
+            socket.emit("systemStatus", systemStatus);
+        }
+    });
     socket.on("changeSystemStatus", (systemStatus) => {
-        console.log("System Status: ", systemStatus);
-    })
+        dataStorage.set("systemStatus", systemStatus).write();
+    });
+    socket.on("requestIsManual", (check) => {
+        if (check) {
+            let isManual = dataStorage.get("manual").value();
+            socket.emit("isManual", isManual);
+        }
+    });
+    socket.on("changeManual", (isManual) => {
+        dataStorage.set("manual", isManual).write();
+    });
 });
 
 
