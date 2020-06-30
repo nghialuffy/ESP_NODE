@@ -5,9 +5,15 @@ let list = [];
 let listString = "";
 let scheduleString = "";
 
+
 const htmlList = document.getElementById("history");
 const scheduleTable = document.getElementById("schedule-table");
 const btnSwitchSystem = document.getElementById("btn-switch-system");
+const sectionSetMode = document.getElementById("section-set-mode");
+const sectionSchedule = document.getElementById("section-schedule");
+const sectionSetServo = document.getElementById("section-set-servo");
+const btnRadios = document.getElementsByClassName("radio-btn");
+const btnSetMode = document.getElementById("set-mode");
 
 let schedule = {};
 
@@ -53,28 +59,16 @@ function renderSchedule() {
     }
   }
 }
-//render();
 
-$("#arc-slider").roundSlider({
-  sliderType: "min-range",
-  circleShape: "custom-quarter",
-  value: 0,
-  min: 0,
-  max: 180,
-  startAngle: 45,
-  editableTooltip: true,
-  radius: 240,
-  width: 6,
-  handleSize: "+32",
-  tooltipFormat: function (args) {
-    return args.value + "&#176;";
-  },
-});
+
 let btnSubmit = document.getElementById("btn-submit");
 btnSubmit.addEventListener("click", () => {
-  let servoString = document
-    .getElementsByClassName("edit")[0]
-    .textContent.replace("°", "");
+  let servoString;
+  for(let i=0; i<btnRadios.length;i++){
+    if (btnRadios[i].checked) {
+      servoString = btnRadios[i].id;
+    }
+  }
   console.log(servoString);
   socket.emit("postDataServo", servoString);
 });
@@ -82,10 +76,16 @@ btnSubmit.addEventListener("click", () => {
 $(function () {
   $(".set-servo-manual").hide();
   $("#set-mode").change(function () {
-    if ($(this).prop("checked")) $(".set-servo-manual").hide();
-    else $(".set-servo-manual").show();
+    if ($(this).prop("checked")) {
+      $(".set-servo-manual").hide();
+      $("#section-schedule").show();
+    } else {
+      $(".set-servo-manual").show();
+      $("#section-schedule").hide();
+    }
   });
 });
+
 
 $(function () {
   $("td").click(function () {
@@ -131,12 +131,50 @@ async function loadData() {
     );
     render();
   });
-}
+  socket.emit("requestIsManual", true);
+  socket.on("isManual", check => {
+    isManual = check;
+    //console.log(isManual);
+    if (isManual){
+      $("#set-mode").bootstrapToggle("off");
+    }
+    else $("#set-mode").bootstrapToggle("on");
+  })
 
-let systemStatus = btnSwitchSystem.checked;
+  socket.emit("requestSystemStatus", true);
+  socket.on("systemStatus", check => {
+    systemStatus = check;
+    //console.log(isManual);
+    if (systemStatus){
+      $("#btn-switch-system").bootstrapToggle("on");
+    }
+    else $("#btn-switch-system").bootstrapToggle("off");
+  })
+}
 
 btnSwitchSystem.onchange = () => {
-  systemStatus = !systemStatus;
-  console.log(systemStatus);
-  socket.emit("changeSystemStatus", systemStatus)
+  systemStatus = btnSwitchSystem.checked;
+  if (systemStatus === false) {
+    console.log("change display mode");
+    sectionSetMode.style.display = "none";
+    sectionSchedule.style.display = "none";
+    if (sectionSetServo.style.display !== "none"){
+      sectionSetServo.style.display = "none";
+    }
+  } else {
+    sectionSetMode.style.display = "block";
+    if (btnSetMode.checked){
+      sectionSchedule.style.display = "block";
+    } else {
+      sectionSetServo.style.display = "block";
+    }
+  }
+  //console.log(systemStatus);
+  socket.emit("changeSystemStatus", systemStatus);
+};
+
+btnSetMode.onchange = () => {
+  let isManual = !(btnSetMode.checked);
+  socket.emit("changeManual", isManual);
 }
+

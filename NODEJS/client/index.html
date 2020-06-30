@@ -14,76 +14,114 @@
 
   <script src="https://cdn.jsdelivr.net/jquery.roundslider/1.0/roundslider.min.js"></script>
   <link href="https://cdn.jsdelivr.net/jquery.roundslider/1.0/roundslider.min.css" rel="stylesheet" />
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.4/socket.io.js"></script>
   <link rel="stylesheet" type="text/css" href="./style.css">
+
   <title>Đồ án</title>
 </head>
 
 <body onload="loadData()">
-
-  
-
-
   <div class="container">
     <div class="row">
       <nar class="col-xs-12 col-sm-4">
         <h3>Tắt/bật hệ thống:</h3>
-        <input id="btn-switch-system" type="checkbox" checked data-toggle="toggle" data-style="ios" data-onstyle="success">
-        <h3>Chọn chế độ:</h3>
-        <input id="set-mode" type="checkbox" checked data-toggle="toggle" data-style="ios" data-onstyle="success"
-          data-on="Auto" data-off="Manual">
+        <input id="btn-switch-system" type="checkbox" data-toggle="toggle" data-style="ios" data-onstyle="success">
+        <div id ="section-set-mode">
+          <h3>Chọn chế độ:</h3>
+          <input id="set-mode" type="checkbox" data-toggle="toggle" data-style="ios" data-onstyle="success"
+            data-on="Auto" data-off="Manual">
+        </div>
         <h3>Lịch sử</h3>
         <div class="list-history" id="history">
         </div>
       </nar>
       <section class="setting col-xs-12 col-sm-8">
-        <h3 class="schedule-title">Đặt lịch làm việc cho hệ thống</h3>
-        <table class="table table-bordered schedule-table">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Mon</th>
-              <th scope="col">Tue</th>
-              <th scope="col">Wed</th>
-              <th scope="col">Thu</th>
-              <th scope="col">Fri</th>
-              <th scope="col">Sat</th>
-              <th scope="col">Sun</th>
-            </tr>
-          </thead>
-          <tbody id="schedule-table">
-            <tr>
-              <th scope="row">AM</th>
-              <td id="monAM"></td>
-              <td id="tueAM"></td>
-              <td id="wedAM"></td>
-              <td id="thuAM"></td>
-              <td id="friAM"></td>
-              <td id="satAM"></td>
-              <td id="sunAM"></td>
-            </tr>
-            <tr>
-              <th scope="row">PM</th>
-              <td id="monPM"></td>
-              <td id="tuePM"></td>
-              <td id="wedPM"></td>
-              <td id="thuPM"></td>
-              <td id="friPM"></td>
-              <td id="satPM"></td>
-              <td id="sunPM"></td>
-            </tr>
-          </tbody>
-        </table>
-
-        <div class="row"></div>
+        <div id="section-schedule">
+          <h3 class="schedule-title">Đặt lịch làm việc cho hệ thống</h3>
+          <table class="table table-bordered schedule-table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Mon</th>
+                <th scope="col">Tue</th>
+                <th scope="col">Wed</th>
+                <th scope="col">Thu</th>
+                <th scope="col">Fri</th>
+                <th scope="col">Sat</th>
+                <th scope="col">Sun</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-table">
+              <tr>
+                <th scope="row">AM</th>
+                <td id="monAM"></td>
+                <td id="tueAM"></td>
+                <td id="wedAM"></td>
+                <td id="thuAM"></td>
+                <td id="friAM"></td>
+                <td id="satAM"></td>
+                <td id="sunAM"></td>
+              </tr>
+              <tr>
+                <th scope="row">PM</th>
+                <td id="monPM"></td>
+                <td id="tuePM"></td>
+                <td id="wedPM"></td>
+                <td id="thuPM"></td>
+                <td id="friPM"></td>
+                <td id="satPM"></td>
+                <td id="sunPM"></td>
+              </tr>
+            </tbody>
+          </table>          
+        </div>
         <div class="col-xs-12 col-md-4">
           <h3>Trạng thái hiện tại: </h3>
           <div id = "info-status" class= "item menu-info">   
           </div>
         </div>
-        <div class="set-servo-manual col-xs-12 col-md-8">
-          <h3>Chọn góc rèm mà bạn muốn: </h3>
-          <div id="arc-slider" class="rslider"></div>
+        <div id="section-set-servo" class="set-servo-manual col-xs-12 col-md-8">
+          <h3 style="text-align: center;">Chọn góc rèm mà bạn muốn: </h3>
+          <div class="list-radio-button">
+            <label class="radio-button">0 &#176;
+              <input id="0" type="radio" class="radio-btn" checked="checked" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio-button">30 &#176;
+              <input id="30" type="radio" class="radio-btn" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio-button">45 &#176;
+              <input id="45" type="radio" class="radio-btn" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio-button">60 &#176;
+              <input id="60" type="radio" class="radio-btn" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio-button">90 &#176;
+              <input id="90" type="radio" class="radio-btn" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio-button">120 &#176;
+              <input id="120" type="radio" class="radio-btn" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio-button">135 &#176;
+              <input id='135' type="radio" class="radio-btn" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio-button">150 &#176;
+              <input id="150" type="radio" class="radio-btn" name="radio">
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio-button">180 &#176;
+              <input id="180" type="radio" class="radio-btn" name="radio">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <!-- <div id="arc-slider" class="rslider"></div>  -->
           <input id = "btn-submit" type="submit" class="btn-submit" value="Submit">
         </div>
     </div>
@@ -91,8 +129,5 @@
   </div>
   </div>
 
-  </script>
   <script type="text/javascript" src="./main.js"></script>
-
-
 </body>
