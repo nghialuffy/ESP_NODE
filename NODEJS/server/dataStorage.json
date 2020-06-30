@@ -1,4 +1,6 @@
 {
+  "systemStatus": true,
+  "manual": true,
   "data": {
     "monAM": false,
     "monPM": true,
