@@ -14,7 +14,7 @@
 #define DHTTYPE DHT11   // DHT 11
 #define DHTPIN D5
 #define TIMEZONE 7
-#define IP_HOST "192.168.1.197"
+#define IP_HOST "192.168.1.198"
 #define IP_PORT 8888
 
 /*
@@ -107,14 +107,13 @@ void setup() {
   //Set up time
   configTime(TIMEZONE * 3600, 0, "pool.ntp.org", "time.nist.gov");
 
-
-  if (!client.connect(host, port)) {
-    Serial.println(F("Ket noi den socker server that bai !!!!"));
-    return;
-  }
-
   if (client.connected()) {
     client.send("FirstConnect", "Notification", "Outside connect !!!!");
+  }
+  
+  if (!client.connect(host, port)) {
+    Serial.println(F("Ket noi den server that bai !!!!"));
+//    return;
   }
 
 }

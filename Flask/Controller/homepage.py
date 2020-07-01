@@ -9,49 +9,51 @@ import pandas as pd
 from csv import writer
 class HomePage(Resource):
     def post(self):
-        # try:
-        datajson = json.loads(str(request.data.decode("utf-8")))
-        print(json.loads(str(request.data.decode("utf-8"))))
-        if datajson != None:
-            time_stamp = datajson["timeStamp"]
-            inside_temp = float(datajson["insideTemp"])
-            inside_lux = float(datajson["insideLux"])
-            outside_temp = float(datajson["outsideTemp"])
-            outside_lux = float(datajson["outsideLux"])
-            is_manual = int(datajson["ismanual"])
+        try:
+            datajson = json.loads(str(request.data.decode("utf-8")))
+            print(json.loads(str(request.data.decode("utf-8"))))
+            if datajson != None:
 
-            model = pickle.load(open('./DataSet/model.pkl', 'rb'))
-            servoDegree = model.predict([[inside_temp, inside_lux, outside_temp, outside_lux]])
-            print(servoDegree)
-            servoDegree = int(servoDegree[0])
+                time_stamp = datajson["timeStamp"]
+                inside_temp = float(datajson["insideTemp"])
+                inside_lux = float(datajson["insideLux"])
+                outside_temp = float(datajson["outsideTemp"])
+                outside_lux = float(datajson["outsideLux"])
+                is_manual = int(datajson["ismanual"])
 
-            if(is_manual == 1):
-                record = [time_stamp,inside_temp,inside_lux,outside_temp,outside_lux,servoDegree]
+                if(is_manual == 0):
 
-                with open('./DataSet/data.csv', 'a+', newline='') as write_obj:
-                    csv_writer = writer(write_obj)
-                    csv_writer.writerow(record)
+                    model = pickle.load(open('./DataSet/model.pkl', 'rb'))
+                    servoDegree = model.predict([[inside_temp, inside_lux, outside_temp, outside_lux]])
+                    print(servoDegree)
+                    servoDegree = int(servoDegree[0])
+                    response = {
+                        "servoDegree" : servoDegree
+                    }
+                    return response
+                elif(is_manual == 1):
 
-                data = pd.read_csv('./DataSet/data.csv')
-                X = data.drop(columns = ['TimeStamp'])
-                X = X.drop(columns = ['Servo'])
-                # print(X)
-                Y = data['Servo']
-                # print(y)
-                X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size=0.1)
-                model = DecisionTreeClassifier()
-                model.fit(X_train, Y_train)
-                predictions = model.predict(X_test)
-                score = accuracy_score(Y_test, predictions)
-                # print(score)
-                pickle.dump(model, open('./DataSet/model.pkl','wb'))
+                    servoDegree = int(datajson["servoDegree"])
+                    record = [time_stamp,inside_temp,inside_lux,outside_temp,outside_lux,servoDegree]
+                    with open('./DataSet/data.csv', 'a+', newline='') as write_obj:
+                        csv_writer = writer(write_obj)
+                        csv_writer.writerow(record)
 
+                    data = pd.read_csv('./DataSet/data.csv')
+                    X = data.drop(columns = ['TimeStamp'])
+                    X = X.drop(columns = ['Servo'])
+                    Y = data['Servo']
+                    X_train, X_test, Y_train, Y_test = train_test_split(X,Y,test_size=0.1)
+                    model = DecisionTreeClassifier()
+                    model.fit(X_train, Y_train)
+                    predictions = model.predict(X_test)
+                    score = accuracy_score(Y_test, predictions)
+                    pickle.dump(model, open('./DataSet/model.pkl','wb'))
 
-            response = {
-                "servoDegree" : servoDegree
-            }
-            return response
-        return None
-        # except Exception as e:
-        #     meserr = f"{e}"
-        #     return meserr
+            responseFail = {
+                        "servoDegree" : None
+                    }
+            return responseFail
+        except Exception as e:
+            meserr = f"{e}"
+            return meserr
