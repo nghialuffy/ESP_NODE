@@ -12,8 +12,8 @@
 #define WIFI_PASSWORD "11223355"
 #define DHTTYPE DHT11   // DHT 11
 #define DHTPIN D5
-#define TIMEZONE 7
-#define IP_HOST "192.168.1.198"
+#define TIMEZONE -7
+#define IP_HOST "192.168.1.171"
 #define IP_PORT 8888
 
 /*

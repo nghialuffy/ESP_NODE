@@ -6103,6 +6103,142 @@
       "OutsideTemp": "34.00",
       "OutsideLux": "583.33",
       "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/003402",
+      "InsideTemp": "33.50",
+      "InsideLux": "268.33",
+      "OutsideTemp": "33.50",
+      "OutsideLux": "71.67",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/143802",
+      "InsideTemp": "34.10",
+      "InsideLux": "9.17",
+      "OutsideTemp": "33.60",
+      "OutsideLux": "109.17",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/144002",
+      "InsideTemp": "34.40",
+      "InsideLux": "9.17",
+      "OutsideTemp": "33.50",
+      "OutsideLux": "114.17",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/144202",
+      "InsideTemp": "34.70",
+      "InsideLux": "13.33",
+      "OutsideTemp": "33.50",
+      "OutsideLux": "223.33",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/144402",
+      "InsideTemp": "34.60",
+      "InsideLux": "14.17",
+      "OutsideTemp": "33.50",
+      "OutsideLux": "236.67",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/144602",
+      "InsideTemp": "34.60",
+      "InsideLux": "14.17",
+      "OutsideTemp": "33.50",
+      "OutsideLux": "244.17",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/144802",
+      "InsideTemp": "34.20",
+      "InsideLux": "20.00",
+      "OutsideTemp": "33.50",
+      "OutsideLux": "241.67",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/145002",
+      "InsideTemp": "34.20",
+      "InsideLux": "20.00",
+      "OutsideTemp": "33.40",
+      "OutsideLux": "366.67",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/145202",
+      "InsideTemp": "33.90",
+      "InsideLux": "17.50",
+      "OutsideTemp": "33.30",
+      "OutsideLux": "382.50",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/145402",
+      "InsideTemp": "34.00",
+      "InsideLux": "65.83",
+      "OutsideTemp": "33.70",
+      "OutsideLux": "400.00",
+      "Servo": "150"
+    },
+    {
+      "TimeStamp": "010720/145602",
+      "InsideTemp": "34.00",
+      "InsideLux": "18.33",
+      "OutsideTemp": "33.10",
+      "OutsideLux": "400.00",
+      "Servo": "0"
+    },
+    {
+      "TimeStamp": "010720/145802",
+      "InsideTemp": 0,
+      "InsideLux": 0,
+      "OutsideTemp": "33.10",
+      "OutsideLux": "390.83",
+      "Servo": "135"
+    },
+    {
+      "TimeStamp": "010720/150002",
+      "InsideTemp": 0,
+      "InsideLux": 0,
+      "OutsideTemp": "33.10",
+      "OutsideLux": "380.00",
+      "Servo": "135"
+    },
+    {
+      "TimeStamp": "010720/150202",
+      "InsideTemp": 0,
+      "InsideLux": 0,
+      "OutsideTemp": "32.90",
+      "OutsideLux": "374.17",
+      "Servo": "135"
+    },
+    {
+      "TimeStamp": "010720/150402",
+      "InsideTemp": 0,
+      "InsideLux": 0,
+      "OutsideTemp": "32.70",
+      "OutsideLux": "365.00",
+      "Servo": "180"
+    },
+    {
+      "TimeStamp": "010720/150602",
+      "InsideTemp": 0,
+      "InsideLux": 0,
+      "OutsideTemp": "32.20",
+      "OutsideLux": "366.67",
+      "Servo": "135"
+    },
+    {
+      "TimeStamp": "010720/150802",
+      "InsideTemp": "33.80",
+      "InsideLux": "53.33",
+      "OutsideTemp": "32.70",
+      "OutsideLux": "369.17",
+      "Servo": "135"
     }
   ]
 }
