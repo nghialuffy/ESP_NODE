@@ -14,7 +14,7 @@
 
   <script src="https://cdn.jsdelivr.net/jquery.roundslider/1.0/roundslider.min.js"></script>
   <link href="https://cdn.jsdelivr.net/jquery.roundslider/1.0/roundslider.min.css" rel="stylesheet" />
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.4/socket.io.js"></script>
   <link rel="stylesheet" type="text/css" href="./style.css">
 
@@ -23,20 +23,20 @@
 
 <body onload="loadData()">
   <div class="container">
+    <h3>Tắt/bật hệ thống:</h3>
+    <input id="btn-switch-system" type="checkbox" data-toggle="toggle" data-style="ios" data-onstyle="success">
+    <div id="section-set-mode">
+      <h3>Chọn chế độ:</h3>
+      <input id="set-mode" type="checkbox" data-toggle="toggle" data-style="ios" data-onstyle="success" data-on="Auto"
+        data-off="Manual">
+    </div>
     <div class="row">
       <nar class="col-xs-12 col-sm-4">
-        <h3>Tắt/bật hệ thống:</h3>
-        <input id="btn-switch-system" type="checkbox" data-toggle="toggle" data-style="ios" data-onstyle="success">
-        <div id ="section-set-mode">
-          <h3>Chọn chế độ:</h3>
-          <input id="set-mode" type="checkbox" data-toggle="toggle" data-style="ios" data-onstyle="success"
-            data-on="Auto" data-off="Manual">
-        </div>
         <h3>Lịch sử</h3>
         <div class="list-history" id="history">
         </div>
       </nar>
-      <section class="setting col-xs-12 col-sm-8">
+      <section class="col-xs-12 col-sm-8">
         <div id="section-schedule">
           <h3 class="schedule-title">Đặt lịch làm việc cho hệ thống</h3>
           <table class="table table-bordered schedule-table">
@@ -74,11 +74,11 @@
                 <td id="sunPM"></td>
               </tr>
             </tbody>
-          </table>          
+          </table>
         </div>
         <div class="col-xs-12 col-md-4">
           <h3>Trạng thái hiện tại: </h3>
-          <div id = "info-status" class= "item menu-info">   
+          <div id="info-status" class="item menu-info">
           </div>
         </div>
         <div id="section-set-servo" class="set-servo-manual col-xs-12 col-md-8">
@@ -122,7 +122,7 @@
             </label>
           </div>
           <!-- <div id="arc-slider" class="rslider"></div>  -->
-          <input id = "btn-submit" type="submit" class="btn-submit" value="Submit">
+          <input id="btn-submit" type="submit" class="btn-submit" value="Submit">
         </div>
     </div>
     </section>
