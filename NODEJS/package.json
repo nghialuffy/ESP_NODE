@@ -10,7 +10,7 @@
     "jquery": "^3.4.0",
     "jsdom": "^14.1.0",
     "lowdb": "^1.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "socket.io": "^1.7.3"
   },
   "devDependencies": {
